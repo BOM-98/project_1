@@ -91,16 +91,19 @@ nav ul li a:hover {
 
 #hero {
     display: flex;
-    height: 80vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 100%;
 }
 
 .hero_text_area{
     background-color: lightcoral;
     width: 50%;
-    height: 100%;
 }
 
 .hero_image_area{
+    background: url(images/website-hero-transparent.svg) no-repeat;
     background-color: lightblue;
     width: 50%;
     height: 100%;
