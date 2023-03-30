@@ -1,7 +1,93 @@
 @import url('https://fonts.googleapis.com/css2?family=Neuton&family=Poppins&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --global-font-family: Verdana, sans-serif;
+    --global-text-color: #191919;
+    --global-primary-title-size: 2rem;
+    --global-color-primary: #C71C81;
+    --global-color-secondary: #7D7F81;
+    --global-color-background: #FBFAF5;
+    --global-color-danger: #ff6542;
+}
 
 body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
+    color: #303030;
+    background-color: var(--global-color-background) ;
 }
+
+/* ======================================== navigation, headings and logo ======================================== */
+
+#logo {
+    display: inline-block;
+    max-width: 20rem;
+    min-width: 15rem;
+    margin: 1rem;
+}
+
+/* navigation bar */
+nav {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+/* navigation bar unordered list of page links */
+
+nav ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin: 1rem;
+    width: 50%;
+}
+
+/* logo */
+
+#logo_link {
+    align-self: flex-start;
+}
+
+/* navigation bar links */
+
+nav ul li {
+    padding: 1rem;
+    display: flex;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: var(--global-text-color)
+}
+
+nav ul li a:hover {
+    color: #C71C81;
+    border-bottom: 1px solid var(--global-color-primary);
+}
+
+.active {
+    color: #C71C81;
+    border-bottom: 1px solid var(--global-color-primary);
+}
+
+/* Medium screens */
+@media all and (max-width: 800px) {
+    
+  }
+  
+  /* Small screens */
+  @media all and (max-width: 500px) {
+    
+  }
