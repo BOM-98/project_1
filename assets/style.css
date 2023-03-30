@@ -82,6 +82,30 @@ nav ul li a:hover {
     border-bottom: 1px solid var(--global-color-primary);
 }
 
+
+/* ======================================== main content ======================================== */
+
+
+
+/* ======================================== hero section ======================================== */
+
+#hero {
+    display: flex;
+    height: 80vh;
+}
+
+.hero_text_area{
+    background-color: lightcoral;
+    width: 50%;
+    height: 100%;
+}
+
+.hero_image_area{
+    background-color: lightblue;
+    width: 50%;
+    height: 100%;
+}
+
 /* Medium screens */
 @media all and (max-width: 800px) {
     
