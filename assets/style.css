@@ -14,13 +14,23 @@
     --global-color-secondary: #7D7F81;
     --global-color-background: #FBFAF5;
     --global-color-danger: #ff6542;
+    --global-body--background: radial-gradient(circle at 10% 20%, rgb(69, 86, 102) 0%, rgb(34, 34, 34) 90%);;
 }
 
 body {
     font-family: Poppins, sans-serif;
     font-weight: 300;
     color: #303030;
-    background-color: var(--global-color-background) ;
+    background-color: var(--global-color-background);
+}
+
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.322);
+    box-shadow: 0 0px 20px 0 rgba( 255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 /* ======================================== navigation, headings and logo ======================================== */
@@ -73,12 +83,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #C71C81;
+    color: var(--global-color-primary);
     border-bottom: 1px solid var(--global-color-primary);
 }
 
 .active {
-    color: #C71C81;
+    color: var(--global-color-primary);
     border-bottom: 1px solid var(--global-color-primary);
 }
 
@@ -90,23 +100,84 @@ nav ul li a:hover {
 /* ======================================== hero section ======================================== */
 
 #hero {
+    height: 60vh;
+    background: var(--global-body--background);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero   {
+    display: flex;
+    background: var(--global-body--background);
+    width: 90%;
+    height: 80%;
+}
+
+.hero_text_area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 2rem 2rem 10%;
+    width: 50%;
+}
+
+.hero_image_area {
+    width: 50%;
+    height: 100%;
+    background: url("images/website-hero-transparent.svg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero_text_area h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: var(--global-color-background);
+}
+
+.hero_text_area p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+    padding: 0 0 0 1rem;
+    color: var(--global-color-background);
+}
+
+.primary {
+    color: var(--global-color-primary);
+    border-bottom: 3px solid var(--global-color-primary);
+}
+
+#hero_button_container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    height: 60vh;
+    justify-content: space-between;
     width: 100%;
 }
 
-.hero_text_area{
-    background-color: lightcoral;
-    width: 50%;
+button {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 0.5rem auto 2rem auto;
+    margin-bottom: 2rem;
+    width: 48%;
+    color: var(--global-color-background);
+    background: rgba(25, 25, 25, 0.322);
+    box-shadow: 0 0px 20px 0 rgba( 255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(9.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.hero_image_area{
-    background: url(images/website-hero-transparent.svg) no-repeat;
-    background-color: lightblue;
-    width: 50%;
-    height: 100%;
+button:hover {
+    background: var(--global-color-primary);
 }
 
 /* Medium screens */
