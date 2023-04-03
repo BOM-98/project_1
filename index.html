@@ -8,10 +8,11 @@
     <meta name="description" content="The best resource for Irish startup founders">
     <meta name="keywords" content="startup, entrepreneur, founder, ireland, dublin">
     <link rel="stylesheet" href="assets/style.css">
+    <script src="app.js"></script>
     <title>Startup Academy</title>
 </head>
 
-<body>
+<body onload="defaultFunction();">
     <header>
         <!-- navigation bar -->
         <nav>
@@ -44,17 +45,47 @@
                         <button>Subscribe</button>
                     </div>
                 </div>
-                <div class="hero_image_area hero_section"></div>
+                <div class="hero_image_area hero_section">
+                    <!-- hero image -->
+                    <img src="assets/images/website-hero-transparent.svg" alt="hero image">
+                </div>
             </div>
         </section>
-        <section>
-            Blog Navigator
-        </section>
-        <section>
-            contact page
-        </section>
+        <section class="tab_section">
+            <div class="tab_container">
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks glassmorphism" id="defaultOpen" onclick="openSubject(event, 'Ideation')">Ideation</button>
+                    <button class="tablinks glassmorphism" onclick="openSubject(event, 'Customer_Discovery')">Customer Discovery</button>
+                    <button class="tablinks glassmorphism" onclick="openSubject(event, 'Funding')">Funding</button>
+                </div>
+            </div>
+            <div class = "tab_content_container">
+            <!-- Tab content -->
+            <div id="Ideation" class="tabcontent glassmorphism">
+                <img src="assets/images/ideation.svg">
+                <h3>Ideation</h3>
+                <p>Brainstorm and validate potential business ideas to lay the groundwork for a successful venture.</p>
+            </div>
+            
+            <div id="Customer_Discovery" class="tabcontent glassmorphism">
+                <img src="assets/images/customer-discovery.svg">
+                <h3>Customer Discovery</h3>
+                <p>Uncover and understand your target customers' needs and preferences through research and feedback to refine your
+                    value proposition and resonate with your intended market.</p>
+                </div>
+            <div id="Funding" class="tabcontent glassmorphism">
+                <img src="assets/images/Fundraising.svg">
+                <h3>Funding</h3>
+                <p>The art of raising capital and securing financial resources to fuel your startup's growth and propel your entrepreneurial journey forward.</p>
+            </div>
+            </div>
+            </section>
+            <section>
+                contact page
+            </section>
     </main>
-
-</body>
-
-</html>
+    
+    </body>
+    
+    </html>
