@@ -166,6 +166,7 @@ nav ul li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    gap: 5px;
     width: 100%;
 }
 
@@ -177,7 +178,7 @@ button {
     transition: all 0.3s ease;
     margin: 0.5rem auto 2rem auto;
     margin-bottom: 2rem;
-    width: 48%;
+    width: 50%;
     color: var(--global-color-background);
     background: rgba(25, 25, 25, 0.322);
     box-shadow: 0 0px 20px 0 rgba( 255, 255, 255, 0.2);
@@ -249,8 +250,8 @@ button:hover {
   /* Style the tab content */
   .tabcontent {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
-    width: fit-content;
     align-items: center;
     padding: 6px 10px;
     border: 1px solid var(--global-color-primary);
@@ -263,7 +264,8 @@ button:hover {
   }
 
   .tabcontent p {
-    width: 60%;
+    width: 50%;
+    text-align: center;
   }
 
 
