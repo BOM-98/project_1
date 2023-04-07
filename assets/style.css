@@ -47,10 +47,12 @@ body {
 nav {
     display: flex;
     flex-flow: wrap;
-    position: sticky;
+    /*position: fixed;*/
+    position: sitcky;
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    padding: 0 5%;
     border-bottom: 1px solid grey;
 }
 
@@ -146,7 +148,7 @@ nav ul li a:hover {
     width: 100%;
     height: 100%;
     max-height: 50vh;
-    max-height: 650px;
+    max-height: 750px;
     object-fit: contain;
 }
 
@@ -196,10 +198,72 @@ button {
     border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.main_button{
+  box-shadow: 0 0 5px var(--global-color-primary),
+              0 0 7.5px var(--global-color-primary),
+              0 0 7.5px var(--global-color-primary),
+              0 0 10px var(--global-color-primary);
+  color: var(--global-color-primary);
+}
+
 button:hover {
     background: var(--global-color-primary);
 }
 
+.hero button:hover {
+  background: var(--global-color-primary);
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px var(--global-color-primary),
+              0 0 25px var(--global-color-primary),
+              0 0 50px var(--global-color-primary),
+              0 0 100px var(--global-color-primary);
+}
+
+
+/*.hero button span {
+  position: absolute;
+  display: block;
+}
+
+.hero button span:nth-child(1) {
+  top: 0;
+  left: -25%;
+  width: 25%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--global-color-primary));
+  animation: btn-anim1 1s linear infinite;
+}
+
+.hero button span:nth-child(2) {
+  top: -25%;
+  right: 0;
+  width: 2px;
+  height: 25%;
+  background: linear-gradient(180deg, transparent, var(--global-color-primary));
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+.hero button span:nth-child(3) {
+  bottom: 0;
+  right: -25%;
+  width: 25%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent,var(--global-color-primary));
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+.hero button span:nth-child(4) {
+  bottom: -25%;
+  left: 0;
+  width: 2px;
+  height: 25%;
+  background: linear-gradient(360deg, transparent, var(--global-color-primary));
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}*/
 
 /* ======================================== tab section ======================================== */
 
@@ -238,7 +302,7 @@ button:hover {
     /*border-top: 2px solid var(--global-color-primary);*/
     width: 100%;
     background-color: var(--global-color-background);
-    box-shadow: 0 0px 20px 0 var(--global-glow--color);
+    box-shadow: 0 0px 20px 0 rgba(19,19,19,0.2);
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -255,9 +319,16 @@ button:hover {
   }
   
   /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: var(--global-color-primary);
-  }
+    .tab button:hover {
+      background: var(--global-color-primary);
+      border: 1px solid rgba(255, 255, 255, 0.35);
+      color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 20px var(--global-color-primary),
+          /*0 0 10px var(--global-color-primary),
+          0 0 20px var(--global-color-primary),
+          0 0 30px var(--global-color-primary)*/;
+    }
   
   /* Create an active/current tablink class */
   .tab button.active {
@@ -273,7 +344,7 @@ button:hover {
     flex-direction: column;
     align-items: center;
     padding: 6px 10px;
-    box-shadow: 0 0px 20px 0 var(--global-glow--color);
+    box-shadow: 0 0px 20px 0 rgba(19,19,19,0.2);
   }
 
   .tabcontent img {
@@ -299,6 +370,18 @@ button:hover {
 
   .tabcontent button {
     background-color:rgba(0, 0, 0, 0.8);
+    width: 25%;
+  }
+
+  .tabcontent button:hover {
+    background: var(--global-color-primary);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px var(--global-color-primary),
+    0 0 25px var(--global-color-primary),
+    0 0 50px var(--global-color-primary),
+    0 0 100px var(--global-color-primary);
   }
 
 
@@ -306,7 +389,7 @@ button:hover {
 
 .contact_section {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     height: 100%;
     padding: 2rem;
