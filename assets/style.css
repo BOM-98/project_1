@@ -97,12 +97,14 @@ nav ul li a:hover {
 
 /* ======================================== main content ======================================== */
 
-
+.content_margin_container {
+  margin: 0 5%;
+}
 
 /* ======================================== hero section ======================================== */
 
 #hero {
-    height: 75vh;
+    height: 90vh;
     background: var(--global-body--background);
     width: 100%;
     display: flex;
@@ -113,6 +115,7 @@ nav ul li a:hover {
 
 .hero   {
     display: flex;
+    margin: 0 7.5%;
     flex-wrap: wrap;
     background: var(--global-body--background);
     width: 95%;
@@ -200,6 +203,11 @@ button:hover {
 
 /* ======================================== tab section ======================================== */
 
+.tab_section {
+    margin: 5% 0;
+}
+
+
 .tab_container {
     display: flex;
     justify-content: center;
@@ -283,8 +291,10 @@ button:hover {
     font-family: sans-serif;
     width: 50%;
     text-align: center;
+    display: -webkit-box;
     -webkit-line-clamp: 2;
-    text-overflow: hidden;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
   }
 
   .tabcontent button {
@@ -296,18 +306,19 @@ button:hover {
 
 .contact_section {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
     padding: 2rem;
+    margin: 5% 0;
     box-shadow: 0 0px 20px 0 rgba( 255, 255, 255, 0.2);
 }
 
 .contact_text{
     display: flex;
     flex-direction: column;
-    width: 100%
+    width: 100%;
+    max-width: 300px;
 }
 
 .contact_text p {
@@ -323,6 +334,7 @@ button:hover {
 
 .login-box {
     width: 100%;
+    max-width: 500px;
     padding: 40px;
     background: rgba(0,0,0,0.8);
     box-shadow: 0 15px 25px rgba(0,0,0,.6);
