@@ -106,7 +106,7 @@ nav ul li a:hover {
 /* ======================================== hero section ======================================== */
 
 #hero {
-    height: 90vh;
+    min-height: 90vh;
     background: var(--global-body--background);
     width: 100%;
     display: flex;
@@ -117,7 +117,7 @@ nav ul li a:hover {
 
 .hero   {
     display: flex;
-    margin: 0 7.5%;
+    margin: 5% 7.5% 5% 7.5%;
     flex-wrap: wrap;
     background: var(--global-body--background);
     width: 95%;
@@ -655,12 +655,150 @@ footer ul {
 
 /* ======================================== Breakpoints ======================================== */
 
+
+
+
+/* Semi-large screens */
+@media all and (max-width: 1200px) {
+
+  .hero_text_area {
+    padding: 1rem 0 1rem 2rem;
+  }
+    
+}
+
+/* 1000px screens */
+
+@media all and (max-width: 1000px) {
+
+  /* ========= Hero Section ========= */
+  
+    .hero {
+      flex-direction: column;
+    }
+  
+    .hero_text_area {
+      width: 100%;
+      order: 1;
+      padding: 0 4rem 2rem 4rem;
+    }
+  
+    .hero_image_area {
+      width: 100%;
+      order: 0;
+    }
+  
+    .hero img {
+      max-height: 40vh;
+    }
+  
+    .hero h1 {
+      font-size: 2rem;
+      text-align: center;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+      text-align: center;
+    }
+  
+    /* ========= Tab Section ========= */
+    
+  
+    .tab_section button {
+      font-size: 0.8rem;
+    }
+  }
+
 /* Medium screens */
 @media all and (max-width: 800px) {
+
+  .tab {
+    flex-wrap: wrap;
+  }
+
+  .tab button {
+    min-width: 50vw;
+  }
+
+  .tab_content_container button {
+    width: fit-content;
+  }
+
+  .tab button {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    width: 100%;
+  }
+
+  .contact_section{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact_text{
+    order: 0;
+    width: 100%;
+    max-width: none;
+    margin-bottom: 5%;
+  }
+
+  .login-box{
+    order: 1;
+  }
+  
     
   }
   
   /* Small screens */
   @media all and (max-width: 500px) {
+
+    .hero {
+      margin: 2%;
+    }
+
+    .hero_text_area {
+      padding: 5%;
+    }
+    
+    .hero h1 {
+      font-size: 1.25rem;
+      text-align: center;
+    }
+  
+    .hero p {
+      font-size:  1 rem;
+      text-align: center;
+    }
+
+    .hero img{
+      max-height: 35vh;
+    }
+
+    #hero_button_container {
+        flex-direction: column;
+      }
+    .hero button {
+      text-align: center;
+      min-width: fit-content;
+    }
+
+    .tab_content_container h2 {
+      font-size: 1.25rem;
+      text-align: center;
+    }
+
+    .tab_content_container p {
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    .tab_content_container img {
+      max-height: 20vh;
+    }
+
+    .tab_content_container button {
+      width: fit-content;
+    }
     
   }
