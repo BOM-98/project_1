@@ -8,6 +8,7 @@
     <meta name="description" content="The best resource for Irish startup founders">
     <meta name="keywords" content="startup, entrepreneur, founder, ireland, dublin">
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="app.js"></script>
     <title>Startup Academy</title>
 </head>
@@ -15,11 +16,13 @@
 <body onload="defaultFunction();">
     <header>
         <!------------------- navigation bar -------------->
-        <nav>
+        <nav class="topnav" id="myTopnav">
             <!-------------- website logo -------------->
             <a href="index.html" id="logo_link">
                 <img src="assets/images/logo/logo_transparent_background.png" alt="logo" id="logo">
             </a>
+            <a href= "javascript: void(0);" class="icon" id= "burger-menu-icon" onclick="navFunction()">
+                <i class="fa fa-bars"></i></a>
 
             <!-------------- navigation links -------------->
             <ul>
@@ -66,6 +69,8 @@
 
         
         <section class="tab_section">
+            <h2>Content</h2>
+            <p>Choose Your Topic</p>
             <div class="tab_container">
                 <!-- Tab links -->
                 <div class="tab glassmorphism">

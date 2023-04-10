@@ -96,6 +96,14 @@ nav ul li a:hover {
     border-bottom: 1px solid var(--global-color-primary);
 }
 
+.topnav .icon {
+  display: none;
+}
+
+.fa {
+  color: var(--global-color-primary)
+}
+
 
 /* ======================================== main content ======================================== */
 
@@ -303,6 +311,17 @@ button:hover {
     width: 100%;
     background-color: var(--global-color-background);
     box-shadow: 0 0px 20px 0 rgba(19,19,19,0.2);
+  }
+
+  .tab_section h2,
+  .tab_section p {
+    text-align: center;
+  }
+
+  .tab_section h2 {
+    margin: 1rem 0 1rem 0;
+    color: var(--global-color-primary);
+    font-size: 2rem;
   }
   
   /* Style the buttons that are used to open the tab content */
@@ -710,6 +729,38 @@ footer ul {
     }
   }
 
+  /* 900 px screens */
+  @media all and (max-width: 900px) {
+
+  .topnav ul {display: none;}
+  .topnav a.icon {
+    /*float: right;*/
+    display: block;
+  }
+
+    .topnav.responsive {
+      position: relative;
+    }
+
+    /*.topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }*/
+    .topnav.responsive ul {
+      float: none;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      text-align: left;
+    }
+
+    .topnav.responsive #logo_link {
+      margin: 0 auto 0 auto;
+    }
+  }
+
 /* Medium screens */
 @media all and (max-width: 800px) {
 
@@ -740,7 +791,7 @@ footer ul {
     order: 0;
     width: 100%;
     max-width: none;
-    margin-bottom: 5%;
+    margin: 0 5% 5% 5%;
   }
 
   .login-box{
@@ -753,6 +804,10 @@ footer ul {
   /* Small screens */
   @media all and (max-width: 500px) {
 
+    nav #logo_link img {
+      width: 30vw;
+    }
+    
     .hero {
       margin: 2%;
     }
@@ -800,5 +855,37 @@ footer ul {
     .tab_content_container button {
       width: fit-content;
     }
+
+    footer {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer nav h2,
+    footer div h2 {
+      text-align: center;
+    }
+
+    footer nav {
+      padding: 0;
+    }
+
+    footer ul {
+      margin: 1rem 0 1rem 0;
+    }
     
   }
+
+  @media all and (max-width: 350px) {
+    .topnav {
+      flex-direction: column;
+    }
+
+    .icon {
+      margin-bottom: 1rem;
+    }
+
+    /*align navigation burget icon to the center*/
+  }
+

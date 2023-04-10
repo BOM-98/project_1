@@ -23,3 +23,14 @@ function defaultFunction() {
     // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
 }
+
+function navFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+document.getElementById("burger-menu-icon").addEventListener("click", navFunction);
