@@ -128,6 +128,8 @@ nav ul li a:hover {
     margin: 5% 7.5% 5% 7.5%;
     flex-wrap: wrap;
     background: var(--global-body--background);
+    /*background: url("images/BOM-98_galaxy_stars_planets_space_background_colour_is_191919_56215a3b-8ff0-424e-be26-fa09fc098638.png") no-repeat;
+    opacity: 0.3;*/
     width: 95%;
     height: 80%;
     border-radius: 30px;
@@ -677,6 +679,61 @@ footer ul {
 }
 
 
+/*======================================== Blog Page ======================================== */
+
+.content__wrapper {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  max-width: 580px;
+  margin: 0 auto 0 auto;
+}
+
+#blog_header {
+    min-height: 25vh;
+    background: var(--global-body--background);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0px 20px 0 rgba( 0, 0, 0, 0.2);
+    z-index: -1;
+}
+
+.blog_header img {
+  max-height: 25vh;
+}
+
+.blog_header h1 {
+  color: var(--global-color-primary);
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 1rem;
+  text-decoration: underline;
+}
+
+.blog_header {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+  background-color: var(--global-body--background);
+}
+.blog_header .hero_image_area {
+  z-index: 1;
+}
+
+.chapter-sidebar {
+  padding-top: 15vh;
+  position: fixed;
+  right: 28px;
+  top: 365px;
+}
+
 /* ======================================== Breakpoints ======================================== */
 
 
@@ -687,6 +744,10 @@ footer ul {
 
   .hero_text_area {
     padding: 1rem 0 1rem 2rem;
+  }
+
+  .chapter-sidebar{
+    display: none;
   }
     
 }

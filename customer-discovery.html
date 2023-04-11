@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The best resource for Irish startup founders">
+    <meta name="keywords" content="startup, entrepreneur, founder, ireland, dublin">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js"></script>
+    <title>Startup Academy</title>
+</head>
+
+<body onload="defaultFunction();">
+    <header>
+        <!------------------- navigation bar -------------->
+        <nav class="topnav" id="myTopnav">
+            <!-------------- website logo -------------->
+            <a href="index.html" id="logo_link">
+                <img src="assets/images/logo/logo_transparent_background.png" alt="logo" id="logo">
+            </a>
+            <a href= "javascript: void(0);" class="icon" id= "burger-menu-icon" onclick="navFunction()">
+                <i class="fa fa-bars"></i></a>
+
+            <!-------------- navigation links -------------->
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+
+        <!------------------ Blog Header Section -------------------------->
+        <section id="blog_header">
+            <div class="glassmorphism blog_header">
+                <div class="hero_image_area hero_section">
+                    <!-- hero image -->
+                    <img src="assets/images/customer-discovery.svg" alt="hero image">
+                </div>
+                <h1>Customer Discovery</h1>
+                </div>
+            </div>
+        </section>
+
+        <div class = "content_margin_container">
+
+
+        <!------------------ Blog Section -------------------------->
+<div class="blog_content">
+    <div class="content__wrapper content__wrapper--first">
+        <p> The “Flexible Box” or “Flexbox” layout mode offers an alternative to <a
+                href="/html-and-css/floats/index.html">Floats</a> for defining the overall appearance of a web page.
+            Whereas floats only let us horizontally position our boxes, flexbox gives us <em>complete</em> control over
+            the alignment, direction, order, and size of our boxes. </p>
+        <figure class="diagram">
+            <div class="diagram__wrapper" style="max-width:600px">
+                <div class="diagram__padding" style="padding-bottom:66.66666666666666%"> <img
+                        class="diagram__image medium-zoom-image"
+                        alt="Diagram: comparison of flexbox alignment, direction, order, and size properties"
+                        src="/flexbox-layouts-7abd58.f93fcbe3.png" width="600" height="400"> </div>
+            </div>
+        </figure>
+        <p> The web is currently undergoing a major transition, so a little discussion around the state of the industry
+            is warranted. For the last decade or so, floats were the sole option for laying out a complex web page. As a
+            result, they’re well supported even in legacy browsers, and developers have used them to build millions of
+            web pages. This means you’ll inevitably run into floats during your web development career (so the previous
+            chapter wasn’t a total waste). </p>
+        <p> However, floats were originally intended for the magazine-style layouts that we covered in <a
+                href="/html-and-css/floats/index.html#floats-for-content">Floats for Content</a>. Despite what we saw
+            last chapter, the kinds of layouts you can create with floats are actually somewhat limited. Even a simple
+            sidebar layout is, technically speaking, a little bit of a hack. Flexbox was invented to break out of these
+            limitations. </p>
+        <p> We’re finally at a point where browser support has hit critical mass and developers can start building full
+            websites with flexbox. Our recommendation is to use flexbox to lay out your web pages as much as possible,
+            reserving floats for when you need text to flow <em>around</em> a box (i.e., a magazine-style layout) or
+            when you need to support legacy web browsers. </p>
+        <figure class="diagram">
+            <div class="diagram__wrapper" style="max-width:454px">
+                <div class="diagram__padding" style="padding-bottom:56.167400881057276%"> <img
+                        class="diagram__image medium-zoom-image"
+                        alt="Diagram: CSS floats for text wrapping around a box versus flexbox for the rest of the page layout"
+                        src="/flexbox-vs-floats-418bf3.44fa853b.png" width="454" height="255"> </div>
+            </div>
+        </figure>
+        <p> In this chapter, we’ll explore the entire flexbox layout model step by step. You should walk away
+            comfortable building virtually any layout a web designer could ever give you. </p>
+    </div>
+</div>
+
+<div class="chapter-sidebar chapter-sidebar--sticky">
+    <div class="sidebar js-sidebar">
+        <div class="sidebar__wrapper">
+            <ul class="sidebar__list">
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#setup">Setup</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#flexbox-overview">Flexbox Overview</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#flex-containers">Flex Containers</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#aligning-a-flex-item">Aligning a Flex Item</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#distributing-multiple-flex-items">Distributing Flex
+                        Items</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#grouping-flex-items">Grouping Flex Items</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#cross-axis-vertical-alignment">Cross-Axis Alignment</a>
+                </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#wrapping-flex-items">Wrapping Flex Items</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#flex-container-direction">Flex Container Direction</a>
+                </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#flex-container-order">Flex Container Order</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#flex-item-order">Flex Item Order</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#flex-item-alignment">Flex Item Alignment</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#flexible-items">Flexible Items</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#flex-items-and-auto-margins">Auto-Margins</a> </li>
+                <li class="sidebar__list-item"> <a class="sidebar__link"
+                        href="/html-and-css/flexbox/index.html#summary">Summary</a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <!------------------ Contact Section -------------------------->
+        <section class="contact_section">
+            <div class="login-box">
+                <h2>JOIN OUR MAILING LIST</h2>
+                <form>
+                    <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>Email</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>Full Name</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>Company</label>
+                    </div>
+                    <div class="user-box">
+                        <input type="text" name="" required="">
+                        <label>Job Title</label>
+                    </div>
+                    <a href="#">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        SIGN UP
+                    </a>
+                </form>
+            </div>
+            <div class="contact_text">
+                <h2>GET THE RIGHT INFO SENT IN THE RIGHT ORDER</h2>
+                <p>Stay ahead in the startup game by joining our Startup Academy mailing list. Gain access to exclusive
+                    insights, expert advice, and invaluable resources designed to help you navigate the path to
+                    product-market fit with confidence. Don't miss out on the opportunity to elevate your
+                    entrepreneurial journey—sign up today.</p>
+            </div>
+        </section>
+    </main>
+
+
+    </div>
+
+    <!------------------ Footer Section -------------------------->
+
+
+    <footer>
+        <nav>
+            <h2>Site Navigation</h2>
+            <ul class="footer_nav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class = "footer_nav">
+            <h2>Other Useful Resources</h2>
+            <ul class = "footer_nav">
+                <li>
+                    <a href="https://playbook.samaltman.com/" target ="blank">Sam Altman's Startup Playbook</a>
+                </li>
+                <li>
+                    <a href="http://www.paulgraham.com/articles.html" target ="blank">Paul Graham's Essays</a>
+                </li>
+                <li>
+                    <a href="https://playbook.samaltman.com/" target ="blank"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
