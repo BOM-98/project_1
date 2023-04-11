@@ -47,8 +47,8 @@ body {
 nav {
     display: flex;
     flex-flow: wrap;
-    /*position: fixed;*/
-    position: sitcky;
+    top: 0;
+    z-index: 1;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -647,7 +647,7 @@ footer ul li a {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: var(--global-text-color);
+  color: var(--global-color-primary);
 }
 
 footer ul li a:hover {
@@ -669,7 +669,12 @@ footer ul {
   margin: 1rem;
 }
 
-
+.contact_main h1{
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-top: 2rem;
+  color: var(--global-color-primary);
+}
 
 
 /* ======================================== Breakpoints ======================================== */
