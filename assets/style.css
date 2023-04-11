@@ -727,11 +727,29 @@ footer ul {
   z-index: 1;
 }
 
+.blog_content {
+  overflow: visible;
+  height: fit-content;
+}
+
 .chapter-sidebar {
-  padding-top: 15vh;
-  position: fixed;
+  position: absolute;
   right: 28px;
-  top: 365px;
+  top: 400px;
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 10px;
+  right: 28px;
+  overflow: visible;
+  height: fit-content;
+  z-index: 0;
+}
+
+.contact_section{
+  z-index: 1;
 }
 
 /* ======================================== Breakpoints ======================================== */
@@ -813,6 +831,8 @@ footer ul {
       right: 0;
       top: 0;
     }*/
+
+
     .topnav.responsive ul {
       float: none;
       display: flex;
