@@ -820,6 +820,31 @@ footer ul {
 }
 
 
+/* ======================================== Thank You Page ======================================== */
+
+.thank_you_hero{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thank_you_hero h1{
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.thank_you_hero p{
+  text-align: center;
+}
+
+.thank_you_hero img{
+  max-height: 40vh;
+}
+
+.thank_you_hero .hero_text_area {
+  padding: 0rem 2rem 2rem 2rem;
+}
 
 
 /* ======================================== Breakpoints ======================================== */

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The best resource for Irish startup founders">
+    <meta name="keywords" content="startup, entrepreneur, founder, ireland, dublin">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="app.js"></script>
+    <title>Startup Academy</title>
+</head>
+
+<body onload="defaultFunction();">
+    <header>
+        <!------------------- navigation bar -------------->
+        <nav class="topnav" id="myTopnav">
+            <!-------------- website logo -------------->
+            <a href="index.html" id="logo_link">
+                <img src="assets/images/logo/logo_transparent_background.png" alt="logo" id="logo">
+            </a>
+            <a href= "javascript: void(0);" class="icon" id= "burger-menu-icon" onclick="navFunction()">
+                <i class="fa fa-bars"></i></a>
+
+            <!-------------- navigation links -------------->
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog-home.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+
+        <!------------------ Hero Section -------------------------->
+        <section id="hero">
+            <div class="glassmorphism hero thank_you_hero">
+                <div class="hero_image_area hero_section">
+                    <!-- hero image -->
+                    <img src="assets/images/thank_you.svg" alt="hero image">
+                </div>
+                <div class="hero_text_area hero_section">
+                    <h1><span class="primary">Thank You!</span></h1>
+                    <p>Your response has been submitted!</p>
+                    <div id="hero_button_container">
+                        <button type="button" onclick="window.location.href = 'index.html'">Back Home</button>
+                </div>
+            </div>
+        </section>
+
+    <!------------------ Footer Section -------------------------->
+
+
+    <footer>
+        <nav>
+            <h2>Site Navigation</h2>
+            <ul class="footer_nav">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="blog-home.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class = "footer_nav">
+            <h2>Other Useful Resources</h2>
+            <ul class = "footer_nav">
+                <li>
+                    <a href="https://playbook.samaltman.com/" target ="blank">Sam Altman's Startup Playbook</a>
+                </li>
+                <li>
+                    <a href="http://www.paulgraham.com/articles.html" target ="blank">Paul Graham's Essays</a>
+                </li>
+                <li>
+                    <a href="https://playbook.samaltman.com/" target ="blank"></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
