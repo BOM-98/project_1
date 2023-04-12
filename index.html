@@ -21,7 +21,7 @@
             <a href="index.html" id="logo_link">
                 <img src="assets/images/logo/logo_transparent_background.png" alt="logo" id="logo">
             </a>
-            <a href= "javascript: void(0);" class="icon" id= "burger-menu-icon" onclick="navFunction()">
+            <a href="javascript: void(0);" class="icon" id="burger-menu-icon" onclick="navFunction()">
                 <i class="fa fa-bars"></i></a>
 
             <!-------------- navigation links -------------->
@@ -46,8 +46,10 @@
                         domination,
                         we've curated the best learnings to teach you how to build this thing!</p>
                     <div id="hero_button_container">
-                        <button type="button" id="secondary_button" onclick="window.location.href = 'contact.html'">Subscribe</button>
-                        <button class="main_button" id="main_button" type="button" onclick="window.location.href = 'blog-home.html'">
+                        <button type="button" id="secondary_button"
+                            onclick="window.location.href = 'contact.html'">Subscribe</button>
+                        <button class="main_button" id="main_button" type="button"
+                            onclick="window.location.href = 'blog-home.html'">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -62,95 +64,101 @@
             </div>
         </section>
 
-        <div class = "content_margin_container">
+        <div class="content_margin_container">
 
 
-        <!------------------ Tab Section -------------------------->
-
-        
-        <section class="tab_section">
-            <h2>Content</h2>
-            <p>Choose Your Topic</p>
-            <div class="tab_container">
-                <!-- Tab links -->
-                <div class="tab glassmorphism">
-                    <button class="tablinks glassmorphism" id="defaultOpen"
-                        onclick="openSubject(event, 'Ideation')">Ideation</button>
-                    <button class="tablinks glassmorphism" onclick="openSubject(event, 'Customer_Discovery')">Customer
-                        Discovery</button>
-                    <button class="tablinks glassmorphism" onclick="openSubject(event, 'Funding')">Funding</button>
-                </div>
-            </div>
-            <div class="tab_content_container">
-                <!-- Tab content -->
-                <div id="Ideation" class="tabcontent glassmorphism">
-                    <img src="assets/images/ideation.svg">
-                    <h2>Ideation</h2>
-                    <p>Brainstorm and validate potential business ideas to lay the groundwork for a successful venture.
-                    </p>
-                    <button type="button" onclick="window.location.href = 'Ideation.html'">Read More</button>
-                </div>
-
-                <div id="Customer_Discovery" class="tabcontent glassmorphism">
-                    <img src="assets/images/customer-discovery.svg">
-                    <h2>Customer Discovery</h2>
-                    <p>Uncover and understand your target customers' needs to achieve product-market fit and resonate
-                        with your intended market.</p>
-                    <button type="button" onclick="window.location.href = 'customer-discovery.html'">Read More</button>
-                </div>
-                <div id="Funding" class="tabcontent glassmorphism">
-                    <img src="assets/images/Fundraising.svg">
-                    <h2>Funding</h2>
-                    <p>The art of raising capital and securing financial resources to fuel your startup's growth and
-                        propel your entrepreneurial journey forward.</p>
-                    <button type="button" onclick="window.location.href = 'fundraising.html'">Read More</button>
-                </div>
-            </div>
-        </section>
+            <!------------------ Tab Section -------------------------->
 
 
-        <!------------------ Contact Section -------------------------->
-        <section class="contact_section" id="home_contact">
-            <div class="login-box">
-                <h2>JOIN OUR MAILING LIST</h2>
-                <form>
-                    <div class="user-box">
-                        <input type="text" name="" required="">
-                        <label>Email</label>
+            <section class="tab_section">
+                <h2>Content</h2>
+                <p>Choose Your Topic</p>
+                <div class="tab_container">
+                    <!-- Tab links -->
+                    <div class="tab glassmorphism">
+                        <button class="tablinks glassmorphism" id="defaultOpen"
+                            onclick="openSubject(event, 'Ideation')">Ideation</button>
+                        <button class="tablinks glassmorphism"
+                            onclick="openSubject(event, 'Customer_Discovery')">Customer
+                            Discovery</button>
+                        <button class="tablinks glassmorphism" onclick="openSubject(event, 'Funding')">Funding</button>
                     </div>
-                    <div class="user-box">
-                        <input type="text" name="" required="">
-                        <label>Full Name</label>
+                </div>
+                <div class="tab_content_container">
+                    <!-- Tab content -->
+                    <div id="Ideation" class="tabcontent glassmorphism">
+                        <img src="assets/images/ideation.svg" alt="astronaut ideating">
+                        <h2>Ideation</h2>
+                        <p>Brainstorm and validate potential business ideas to lay the groundwork for a successful
+                            venture.
+                        </p>
+                        <button type="button" onclick="window.location.href = 'Ideation.html'">Read More</button>
                     </div>
-                    <div class="user-box">
-                        <input type="text" name="" required="">
-                        <label>Company</label>
+
+                    <div id="Customer_Discovery" class="tabcontent glassmorphism">
+                        <img src="assets/images/customer-discovery.svg" alt="two astronauts conversing">
+                        <h2>Customer Discovery</h2>
+                        <p>Uncover and understand your target customers' needs to achieve product-market fit and
+                            resonate
+                            with your intended market.</p>
+                        <button type="button" onclick="window.location.href = 'customer-discovery.html'">Read
+                            More</button>
                     </div>
-                    <div class="user-box">
-                        <input type="text" name="" required="">
-                        <label>Job Title</label>
+                    <div id="Funding" class="tabcontent glassmorphism">
+                        <img src="assets/images/Fundraising.svg" alt="astronaut finding money in a valut">
+                        <h2>Funding</h2>
+                        <p>The art of raising capital and securing financial resources to fuel your startup's growth and
+                            propel your entrepreneurial journey forward.</p>
+                        <button type="button" onclick="window.location.href = 'fundraising.html'">Read More</button>
                     </div>
-                    <a href="#">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        SIGN UP
-                    </a>
-                </form>
-            </div>
-            <div class="contact_text">
-                <h2>GET THE RIGHT INFO SENT IN THE RIGHT ORDER</h2>
-                <p>Stay ahead in the startup game by joining our Startup Academy mailing list. Gain access to exclusive
-                    insights, expert advice, and invaluable resources designed to help you navigate the path to
-                    product-market fit with confidence. Don't miss out on the opportunity to elevate your
-                    entrepreneurial journey—sign up today.</p>
-            </div>
-        </section>
-    </main>
+                </div>
+            </section>
 
 
-    </div>
+            <!------------------ Contact Section -------------------------->
+            <section class="contact_section" id="home_contact">
+                <div class="login-box">
+                    <h2>JOIN OUR MAILING LIST</h2>
+                    <form>
+                        <div class="user-box">
+                            <input type="text" name="email" required="">
+                            <label>Email</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="full-name" required="">
+                            <label>Full Name</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="company" required="">
+                            <label>Company</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="job-title" required="">
+                            <label>Job Title</label>
+                        </div>
+                        <a href="#">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            SIGN UP
+                        </a>
+                    </form>
+                </div>
+                <div class="contact_text">
+                    <h2>GET THE RIGHT INFO SENT IN THE RIGHT ORDER</h2>
+                    <p>Stay ahead in the startup game by joining our Startup Academy mailing list. Gain access to
+                        exclusive
+                        insights, expert advice, and invaluable resources designed to help you navigate the path to
+                        product-market fit with confidence. Don't miss out on the opportunity to elevate your
+                        entrepreneurial journey—sign up today.</p>
+                </div>
+            </section>
+        </div>
+        </main>
+
+
+    
 
     <!------------------ Footer Section -------------------------->
 
@@ -164,17 +172,17 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <div class = "footer_nav">
+        <div class="footer_nav">
             <h2>Other Useful Resources</h2>
-            <ul class = "footer_nav">
+            <ul class="footer_nav">
                 <li>
-                    <a href="https://playbook.samaltman.com/" target ="blank">Sam Altman's Startup Playbook</a>
+                    <a href="https://playbook.samaltman.com/" target="blank">Sam Altman's Startup Playbook</a>
                 </li>
                 <li>
-                    <a href="http://www.paulgraham.com/articles.html" target ="blank">Paul Graham's Essays</a>
+                    <a href="http://www.paulgraham.com/articles.html" target="blank">Paul Graham's Essays</a>
                 </li>
                 <li>
-                    <a href="https://playbook.samaltman.com/" target ="blank"></a>
+                    <a href="https://playbook.samaltman.com/" target="blank"></a>
                 </li>
             </ul>
         </div>
@@ -183,4 +191,3 @@
 </body>
 
 </html>
-

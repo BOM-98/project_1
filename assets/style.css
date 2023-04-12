@@ -40,7 +40,7 @@ body {
     display: inline-block;
     max-width: 20rem;
     min-width: 15rem;
-    margin: 1rem;
+    margin: .25rem;
 }
 
 /* navigation bar */
@@ -63,7 +63,7 @@ nav ul {
     list-style: none;
     text-decoration: none;
     justify-content: space-evenly;
-    margin: 1rem;
+    margin: .25rem;
     width: 50%;
 }
 
@@ -76,7 +76,7 @@ nav ul {
 /* navigation bar links */
 
 nav ul li {
-    padding: 1rem;
+    padding: .25rem;
     display: flex;
     
 }
@@ -125,7 +125,7 @@ nav ul li a:hover {
 
 .hero   {
     display: flex;
-    margin: 5% 7.5% 5% 7.5%;
+    margin: 2.5% 5% 1.5% 5%;
     flex-wrap: wrap;
     background: var(--global-body--background);
     /*background: url("images/BOM-98_galaxy_stars_planets_space_background_colour_is_191919_56215a3b-8ff0-424e-be26-fa09fc098638.png") no-repeat;
