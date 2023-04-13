@@ -101,7 +101,8 @@ nav ul li a:hover {
 }
 
 .fa {
-  color: var(--global-color-primary)
+  color: var(--global-color-primary);
+  height: 15px;
 }
 
 
@@ -779,6 +780,7 @@ footer ul {
   margin-top: 5%;;
   display: flex;
   align-items: center;
+  border-radius: 20px;
 }
 
 .card_image_left{
