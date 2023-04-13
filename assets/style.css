@@ -704,7 +704,7 @@ footer ul {
     z-index: -1;
 }
 
-#astronaut_ideating {
+.astronaut_ideating {
   width: 100%;
   height: 100%;
 }
