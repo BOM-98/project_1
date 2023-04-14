@@ -80,7 +80,6 @@ nav ul {
 nav ul li {
   padding: .25rem;
   display: flex;
-
 }
 
 nav ul li a {
@@ -108,7 +107,6 @@ nav ul li a:hover {
   width: 100%;
 }
 
-
 /* ======================================== main content ======================================== */
 
 .content_margin_container {
@@ -132,8 +130,6 @@ nav ul li a:hover {
   margin: 2.5% 5% 1.5% 5%;
   flex-wrap: wrap;
   background: var(--global-body--background);
-  /*background: url("images/BOM-98_galaxy_stars_planets_space_background_colour_is_191919_56215a3b-8ff0-424e-be26-fa09fc098638.png") no-repeat;
-    opacity: 0.3;*/
   width: 95%;
   height: 80%;
   border-radius: 30px;
@@ -153,9 +149,7 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  /*background: url("images/website-hero-transparent.svg") no-repeat;*/
   background-position: center;
-
 }
 
 .hero_image_area img {
@@ -234,51 +228,6 @@ button:hover {
     0 0 100px var(--global-color-primary);
 }
 
-
-/*.hero button span {
-  position: absolute;
-  display: block;
-}
-
-.hero button span:nth-child(1) {
-  top: 0;
-  left: -25%;
-  width: 25%;
-  height: 2px;
-  background: linear-gradient(90deg, transparent, var(--global-color-primary));
-  animation: btn-anim1 1s linear infinite;
-}
-
-.hero button span:nth-child(2) {
-  top: -25%;
-  right: 0;
-  width: 2px;
-  height: 25%;
-  background: linear-gradient(180deg, transparent, var(--global-color-primary));
-  animation: btn-anim2 1s linear infinite;
-  animation-delay: .25s
-}
-
-.hero button span:nth-child(3) {
-  bottom: 0;
-  right: -25%;
-  width: 25%;
-  height: 2px;
-  background: linear-gradient(270deg, transparent,var(--global-color-primary));
-  animation: btn-anim3 1s linear infinite;
-  animation-delay: .5s
-}
-
-.hero button span:nth-child(4) {
-  bottom: -25%;
-  left: 0;
-  width: 2px;
-  height: 25%;
-  background: linear-gradient(360deg, transparent, var(--global-color-primary));
-  animation: btn-anim4 1s linear infinite;
-  animation-delay: .75s
-}*/
-
 /* ======================================== tab section ======================================== */
 
 .tab_section {
@@ -313,7 +262,6 @@ button:hover {
   justify-content: space-around;
   align-items: center;
   gap: 2%;
-  /*border-top: 2px solid var(--global-color-primary);*/
   width: 100%;
   background-color: var(--global-color-background);
   box-shadow: 0 0px 20px 0 rgba(19, 19, 19, 0.2);
@@ -350,10 +298,6 @@ button:hover {
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 20px var(--global-color-primary);
-    /*0 0 10px var(--global-color-primary),
-          0 0 20px var(--global-color-primary),
-          0 0 30px var(--global-color-primary)*/
-  ;
 }
 
 /* Create an active/current tablink class */
@@ -532,6 +476,8 @@ button:hover {
   animation: btn-anim1 1s linear infinite;
 }
 
+/*keyframes are used to animate the buttons on the sigup box*/
+
 @keyframes btn-anim1 {
   0% {
     left: -100%;
@@ -553,6 +499,7 @@ button:hover {
   animation-delay: .25s
 }
 
+/*keyframes are used to animate the buttons on the sigup box*/
 @keyframes btn-anim2 {
   0% {
     top: -100%;
@@ -574,6 +521,7 @@ button:hover {
   animation-delay: .5s
 }
 
+/*keyframes are used to animate the buttons on the sigup box*/
 @keyframes btn-anim3 {
   0% {
     right: -100%;
@@ -595,6 +543,7 @@ button:hover {
   animation-delay: .75s
 }
 
+/*keyframes are used to animate the buttons on the sigup box*/
 @keyframes btn-anim4 {
   0% {
     bottom: -100%;
@@ -605,8 +554,6 @@ button:hover {
     bottom: 100%;
   }
 }
-
-
 
 /* ======================================== footer section ======================================== */
 
@@ -640,7 +587,6 @@ footer div {
   flex-grow: 1;
   width: 25%;
 }
-
 
 .footer_nav {
   display: flex;
@@ -691,7 +637,6 @@ footer ul {
   padding-top: 2rem;
   color: var(--global-color-primary);
 }
-
 
 /*======================================== Blog Page ======================================== */
 
@@ -788,7 +733,6 @@ footer ul {
   z-index: 1;
 }
 
-
 /*======================================== Blog Home Page ======================================== */
 
 .card {
@@ -830,7 +774,6 @@ footer ul {
 .card_container {
   padding: 1rem 2rem;
   max-height: 40vh;
-
 }
 
 .card_container p {
@@ -839,7 +782,6 @@ footer ul {
   overflow: hidden;
   display: -webkit-box;
 }
-
 
 /* ======================================== Thank You Page ======================================== */
 
@@ -867,11 +809,7 @@ footer ul {
   padding: 0rem 2rem 2rem 2rem;
 }
 
-
 /* ======================================== Breakpoints ======================================== */
-
-
-
 
 /* Semi-large screens */
 @media all and (max-width: 1200px) {
@@ -883,7 +821,6 @@ footer ul {
   .chapter-sidebar {
     display: none;
   }
-
 }
 
 /* 1000px screens */
@@ -923,7 +860,6 @@ footer ul {
 
   /* ========= Tab Section ========= */
 
-
   .tab_section button {
     font-size: 0.8rem;
   }
@@ -944,13 +880,6 @@ footer ul {
   .topnav.responsive {
     position: relative;
   }
-
-  /*.topnav.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }*/
-
 
   .topnav.responsive ul {
     float: none;
