@@ -234,7 +234,6 @@ button:hover {
   margin: 5% 0;
 }
 
-
 .tab_container {
   display: flex;
   justify-content: center;
@@ -253,7 +252,6 @@ button:hover {
   padding: 2rem;
   box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.2);
 }
-
 
 /* Style the tab */
 .tab {
@@ -815,45 +813,50 @@ footer ul {
 
   /* Adjust hero_text_area padding for screens up to 1200px */
   .hero_text_area {
-  padding: 1rem 0 1rem 2rem;
+    padding: 1rem 0 1rem 2rem;
   }
-  
+
   /* Hide chapter-sidebar for screens up to 1200px */
   .chapter-sidebar {
-  display: none;
+    display: none;
   }
-  }
+}
 
 /* 1000px screens */
-
 @media all and (max-width: 1000px) {
 
   /* ========= Hero Section ========= */
 
+  /* Make hero section a column layout for screens up to 1000px */
   .hero {
     flex-direction: column;
   }
 
+  /* Adjust hero_text_area width, order and padding for screens up to 1000px */
   .hero_text_area {
     width: 100%;
     order: 1;
     padding: 0 4rem 2rem 4rem;
   }
 
+  /* Adjust hero_image_area width and order for screens up to 1000px */
   .hero_image_area {
     width: 100%;
     order: 0;
   }
 
+  /* Adjust hero image size for screens up to 1000px */
   .hero img {
     max-height: 40vh;
   }
 
+  /* Adjust hero header font size and alignment for screens up to 1000px */
   .hero h1 {
     font-size: 2rem;
     text-align: center;
   }
 
+  /* Adjust hero paragraph font size and alignment for screens up to 1000px */
   .hero p {
     font-size: 1rem;
     text-align: center;
@@ -861,6 +864,7 @@ footer ul {
 
   /* ========= Tab Section ========= */
 
+  /* Adjust tab section button font size for screens up to 1000px */
   .tab_section button {
     font-size: 0.8rem;
   }
@@ -869,19 +873,22 @@ footer ul {
 /* 900 px screens */
 @media all and (max-width: 900px) {
 
+  /* Hide top navigation unordered list for screens up to 900px */
   .topnav ul {
     display: none;
   }
 
+  /* Display burger menu icon for screens up to 900px */
   .topnav span.icon {
-    /*float: right;*/
     display: block;
   }
 
+  /* Adjust top navigation responsiveness for screens up to 900px */
   .topnav.responsive {
     position: relative;
   }
 
+  /* Adjust top navigation responsive unordered list for screens up to 900px */
   .topnav.responsive ul {
     float: none;
     display: flex;
@@ -891,6 +898,7 @@ footer ul {
     text-align: left;
   }
 
+  /* Adjust top navigation responsive logo link for screens up to 900px */
   .topnav.responsive #logo_link {
     margin: 0 auto 0 auto;
   }
@@ -899,29 +907,35 @@ footer ul {
 /* Medium screens */
 @media all and (max-width: 800px) {
 
+  /* Wrap tab buttons for screens up to 800px */
   .tab {
     flex-wrap: wrap;
   }
 
+  /* Adjust tab button minimum width for screens up to 800px */
   .tab button {
     min-width: 50vw;
   }
 
+  /* Adjust tab content container button width for screens up to 800px */
   .tab_content_container button {
     width: fit-content;
   }
 
+  /* Adjust tab button margin and width for screens up to 800px */
   .tab button {
     margin-top: 0.25rem;
     margin-bottom: 0.25rem;
     width: 100%;
   }
 
+  /* Adjust contact_section layout for screens up to 800px */
   .contact_section {
     flex-direction: column;
     align-items: center;
   }
 
+  /* Adjust contact_text order, width, and margin for screens up to 800px */
   .contact_text {
     order: 0;
     width: 100%;
@@ -929,27 +943,32 @@ footer ul {
     margin: 0 5% 5% 5%;
   }
 
+  /* Adjust login-box order for screens up to 800px */
   .login-box {
     order: 1;
   }
 
+  /* Adjust card layout for screens up to 800px */
   .card {
     flex-direction: column;
     align-items: center;
     justify-content: center;
   }
 
+  /* Adjust card_container layout for screens up to 800px */
   .card .card_container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+  /* Adjust card_container paragraph and header alignment for screens up to 800px */
   .card_container p,
   .card_container h2 {
     text-align: center;
   }
 
+  /* Adjust card_image_right image order for screens up to 800px */
   .card_image_right img {
     order: -1;
   }
@@ -958,82 +977,99 @@ footer ul {
 /* Small screens */
 @media all and (max-width: 500px) {
 
+  /* Adjust logo image width for screens up to 500px */
   nav #logo_link img {
     width: 30vw;
   }
 
+  /* Adjust hero section margin for screens up to 500px */
   .hero {
     margin: 2%;
   }
 
+  /* Adjust hero_text_area padding for screens up to 500px */
   .hero_text_area {
     padding: 5%;
   }
 
+  /* Adjust hero header font size and alignment for screens up to 500px */
   .hero h1 {
     font-size: 1.25rem;
     text-align: center;
   }
 
+  /* Adjust hero paragraph font size and alignment for screens up to 500px */
   .hero p {
     font-size: 1rem;
     text-align: center;
   }
 
+  /* Adjust hero image size for screens up to 500px */
   .hero img {
     max-height: 35vh;
   }
 
+  /* Adjust hero button container layout for screens up to 500px */
   #hero_button_container {
     flex-direction: column;
   }
 
+  /* Adjust hero button text alignment and width for screens up to 500px */
   .hero button {
     text-align: center;
     min-width: fit-content;
   }
 
+  /* Adjust tab content container header font size and alignment for screens up to 500px */
   .tab_content_container h2 {
     font-size: 1.25rem;
     text-align: center;
   }
 
+  /* Adjust tab content container paragraph font size and alignment for screens up to 500px */
   .tab_content_container p {
     font-size: 1rem;
     text-align: center;
   }
 
+  /* Adjust tab content container image size for screens up to 500px */
   .tab_content_container img {
     max-height: 20vh;
   }
 
+  /* Adjust tab content container button width for screens up to 500px */
   .tab_content_container button {
     width: fit-content;
   }
 
+  /* Adjust footer layout for screens up to 500px */
   footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
+  /* Adjust footer navigation header and div header alignment for screens up to 500px */
   footer nav h2,
   footer div h2 {
     text-align: center;
   }
 
+  /* Adjust footer navigation layout for screens up to 500px */
   footer nav {
     padding: 0;
     justify-content: center;
     align-items: center;
   }
 
+  /* Adjust footer navigation unordered list layout for screens up to 500px */
   footer ul {
     margin: 1rem 0 1rem 0;
   }
 
 }
 
+/* Extra small screens */
 @media all and (max-width: 350px) {
   .topnav {
     flex-direction: column;
