@@ -872,7 +872,7 @@ footer ul {
     display: none;
   }
 
-  .topnav a.icon {
+  .topnav span.icon {
     /*float: right;*/
     display: block;
   }
