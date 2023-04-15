@@ -434,7 +434,7 @@ button:hover {
 .login-box .user-box input:valid~label {
   top: -20px;
   left: 0;
-  color: var(--global-color-primary);
+  color: var(--global-color-background);
   font-size: 12px;
 }
 
@@ -442,7 +442,7 @@ button:hover {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: var(--global-color-primary);
+  color: var(--global-color-background);
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -609,7 +609,7 @@ footer ul li a {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  color: var(--global-color-primary);
+  color: var(--global-color-background);
 }
 
 footer ul li a:hover {
@@ -635,7 +635,7 @@ footer ul {
   margin: 0 auto 0 auto;
   text-align: center;
   padding-top: 2rem;
-  color: var(--global-color-primary);
+  color: var(--global-color-background);
 }
 
 /*======================================== Blog Page ======================================== */
