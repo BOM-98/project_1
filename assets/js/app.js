@@ -19,10 +19,20 @@ function openSubject(evt, subjectName) {
     evt.currentTarget.className += " active";
   }
 
+/** get the element with id="defaultOpen" and click on it
+ * @returns {void} defaultOpen is clicked
+ */
 function defaultFunction() {
-    // Get the element with id="defaultOpen" and click on it
     document.getElementById("defaultOpen").click();
 }
+
+/**
+ * Toggles the 'responsive' class on the 'myTopnav' element to create
+ * a responsive navigation bar when the burger menu icon is clicked.
+ * The 'responsive' class is added when the element has the class 'topnav',
+ * and the class is removed when the element has the class 'topnav responsive'.
+ * @returns {void} the 'responsive' class is toggled on the 'myTopnav' element
+ */
 
 function navFunction() {
   var x = document.getElementById("myTopnav");
@@ -33,7 +43,16 @@ function navFunction() {
   }
 }
 
+/**
+ * Adds event listeners and calls functions after the DOM has fully loaded.
+ * Specifically, it adds a click event listener to the 'burger-menu-icon' element
+ * to call the 'navFunction' when clicked and calls the 'defaultFunction'
+ * to initialize the default state of the page.
+ */
 document.addEventListener('DOMContentLoaded', function () {
+  // Add click event listener to the burger menu icon to toggle the navigation bar responsiveness
   document.getElementById("burger-menu-icon").addEventListener("click", navFunction);
+
+  // Call the defaultFunction to set the initial state of the page
   defaultFunction();
 });
