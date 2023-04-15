@@ -669,7 +669,7 @@ footer ul {
 }
 
 .blog_header h1 {
-  color: var(--global-color-primary);
+  color: var(--global-color-background);
   font-size: 2rem;
   font-weight: 700;
   margin: 0;
