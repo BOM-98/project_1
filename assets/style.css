@@ -740,7 +740,6 @@ footer ul {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   margin-top: 5%;
-  ;
   display: flex;
   align-items: center;
   border-radius: 20px;
@@ -777,7 +776,7 @@ footer ul {
 }
 
 .card_container p {
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   display: -webkit-box;
@@ -814,14 +813,16 @@ footer ul {
 /* Semi-large screens */
 @media all and (max-width: 1200px) {
 
+  /* Adjust hero_text_area padding for screens up to 1200px */
   .hero_text_area {
-    padding: 1rem 0 1rem 2rem;
+  padding: 1rem 0 1rem 2rem;
   }
-
+  
+  /* Hide chapter-sidebar for screens up to 1200px */
   .chapter-sidebar {
-    display: none;
+  display: none;
   }
-}
+  }
 
 /* 1000px screens */
 
@@ -952,7 +953,6 @@ footer ul {
   .card_image_right img {
     order: -1;
   }
-
 }
 
 /* Small screens */
@@ -1042,6 +1042,4 @@ footer ul {
   .icon {
     margin-bottom: 1rem;
   }
-
-  /*align navigation burget icon to the center*/
 }
