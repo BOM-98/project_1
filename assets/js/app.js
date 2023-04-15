@@ -33,5 +33,7 @@ function navFunction() {
   }
 }
 
-document.getElementById("burger-menu-icon").addEventListener("click", navFunction);
-document.getElementById("body").addEventListener("load", defaultFunction);
+document.addEventListener('DOMContentLoaded', function () {
+  document.getElementById("burger-menu-icon").addEventListener("click", navFunction);
+  defaultFunction();
+});
