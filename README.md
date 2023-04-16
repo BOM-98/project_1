@@ -6,14 +6,22 @@
 The Startup Academy is a blog for guiding new founders on best practices for achieving product-market fit. The blog is targeted towards startup founders, particularly new founders in Dublin, Ireland. The goal of the website is to distill as much knowledge as possible into articles and present them in a logical order for founders to follow. If a founder is running a company that is already past some of the stages discussed in the blog, they can easily navigate and identify what the next problem area they should explore would be. 
 
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/raw/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/responsive-images.png)
 ## Design Choices
 
 ### Colour Scheme
 
 
 ### Wire Frames
-I created my wireframe using Balsamiq. 
+I created my wireframe using Balsamiq.
+
+![Wireframe1](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Home%20Page.png)
+
+![Wireframe2](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Blog%20Pages.png)
+
+![Wireframe3](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Contact%20Page.png)
+
+![Wireframe4](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Thank%20You%20Page!.png)
 
 ### User Stories
 
@@ -75,11 +83,17 @@ Here is a general overview of the Sitemap:
 
 To rank the website on Google Search, a Google HTML file was added to the root directory (/workspaces/project_1/googleb4228df491edf6c8.html).
 
+A visual skeleton of the website is shown in the below image.
+
+![sitemap]()
+
 ## Features
 
 The Startup Academy website features a dedicated homepage where founders can instantly navigate to all the relevant resources contained on the site. This includes a responsive navigation bar, a tab section where users can toggle between blog content to arrive at the area most relevant to them, a form to sign up to the newsletter, a thank you page for anyone who has submitted a form and three blog pages with content on Ideation, Customer Discovery and Fundraising.  
 
-### [](https://github.com/Code-Institute-Solutions/readme-template#existing-features)Existing Features
+### ![Responsive Display](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/responsive-images.png)
+
+Existing Features
 
 -   **Navigation Bar**
     
@@ -90,14 +104,14 @@ The Startup Academy website features a dedicated homepage where founders can ins
 
  
 
-[![Nav Bar](https://github.com/lucyrush/readme-template/raw/master/media/love_running_nav.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/nav-bar-image.png)
 
 -   **The landing page image**
     
     -   The landing includes a photograph of the website mascot alongside text with relevant button links to inform the user of the website's purpose and provide easy navigation to further resources.
     -   This section introduces the user to The Startup Academy with a neomorphism style for the hero section to portray a more modern feel for the website and make it feel more relevant for tech founders in particular.
 
-[![Landing Page](https://github.com/lucyrush/readme-template/raw/master/media/love_running_landing.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Hero Section][https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png)
 
 -   **Toggle-Enabled Tab Content Section**
     
@@ -106,7 +120,7 @@ The Startup Academy website features a dedicated homepage where founders can ins
     -   This user will see the wealth of knowledge available on the site, and this should encourage the user to consider registering for the newsletter to receive the content in an orderly fashion.
     - This section will continuously have more content added to it as the blog develops. 
 
-[![Club Ethos](https://github.com/lucyrush/readme-template/raw/master/media/love_running_ethos.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Toggle-Enabled Tab Content Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/tab-section-image.png)
 
 -   **Mailing List Section**
     
@@ -114,13 +128,13 @@ The Startup Academy website features a dedicated homepage where founders can ins
     -   The user is informed of the benefits of joining the mailing list, and the animated 'sign up' button attracts their attention to the call to action.
     - The input fields are marked with required properties to ensure that all relevant information is gathered.
 
-[![Meetup Times](https://github.com/lucyrush/readme-template/raw/master/media/love_running_times.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+[![Newsletter](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/newsletter-section-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/newsletter-section-image.png)
 
 -   **The Footer**
     
     -   The footer section includes links to the relevant pages for the Startup Academy, in addition to other notable websites relevant for startup founders. The external links will open to a new tab to allow easy navigation for the user.
 
-[![Footer](https://github.com/lucyrush/readme-template/raw/master/media/love_running_footer.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+[![Footer](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/footer-section-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/footer-section-image.png)
 
 -   **Blog Home Page**
     - Found on the blog-home.html file. 
@@ -128,7 +142,7 @@ The Startup Academy website features a dedicated homepage where founders can ins
     -   This section is valuable to the user as they will be able to easily identify the types of content they want to read.
     - Each article is displayed with a corresponding image that alternates on the left or right depending on the order of the article in the list.
 
-[![Gallery](https://github.com/lucyrush/readme-template/raw/master/media/love_running_gallery.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+[![Hero Section Top](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/blog-home-top-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/blog-home-top-image.png)
 
 -   **Article Pages**
 
