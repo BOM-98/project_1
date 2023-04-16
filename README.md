@@ -6,7 +6,7 @@
 The Startup Academy is a blog for guiding new founders on best practices for achieving product-market fit. The blog is targeted towards startup founders, particularly new founders in Dublin, Ireland. The goal of the website is to distill as much knowledge as possible into articles and present them in a logical order for founders to follow. If a founder is running a company that is already past some of the stages discussed in the blog, they can easily navigate and identify what the next problem area they should explore would be. 
 
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/raw/master/media/love_running_mockup.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/raw/master/media/love_running_mockup.png)[Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
 
 ## Features
 
@@ -83,11 +83,9 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### [](https://github.com/Code-Institute-Solutions/readme-template#features-left-to-implement)Features Left to Implement
 
--   I would have liked to connect the newsletter forms to an actual mailing list to enable users to receive new content on a regular basis.
--  I would like to make a full blog editor so that I can quickly add new blog pages with the same layout and style without having to manually create a new page. Information on how to do this is provided in the following links: 
-	- https://dev.to/themodernweb/fullstack-how-to-create-a-working-blogging-website-with-pure-html-css-and-js-in-2021-9di. 
-	- https://morioh.com/p/96a3981fdcfa
-- 
+-   I would have liked to connect the newsletter forms to an actual mailing list to enable users to receive new content on a regular basis. This would involve creating a backend database and APIs to collect and store the user information, in addition to integrating with a mailing software suce as MailChimp in order to email new subscribers. 
+-  I would like to make a full blog editor where I can quickly add new blog pages with the same layout and style without having to manually create a new page by writing HTML and CSS. This would involve creating an admin page where I could write new articles and publish them to the site. Information on how to do this is provided in the following [link](https://dev.to/themodernweb/fullstack-how-to-create-a-working-blogging-website-with-pure-html-css-and-js-in-2021-9di.).
+
 
 ## [](https://github.com/Code-Institute-Solutions/readme-template#testing)Testing
 
@@ -96,13 +94,9 @@ To ensure the site functions appropriately I conducted a number of tests. This i
 ### [](https://github.com/Code-Institute-Solutions/readme-template#validator-testing)Validator Testing
 
 -   HTML
-    -   No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+    -   No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html)
 -   CSS
-    -   No errors were found when passing through the official  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-### [](https://github.com/Code-Institute-Solutions/readme-template#unfixed-bugs)Unfixed Bugs
-
--
+    -   No errors were found when passing through the official  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ## [](https://github.com/Code-Institute-Solutions/readme-template#deployment)Deployment
 
@@ -120,35 +114,19 @@ The live link can be found here -  [https://bom-98.github.io/project_1/](https:/
 ### [](https://github.com/Code-Institute-Solutions/readme-template#content)Content
 
 
-- Inspiration on the hero section and the layout of the blog pages was taken from [Interneting is Hard](https://internetingishard.netlify.app/index.html)
+- Inspiration on the hero section and the layout of the blog pages was taken from [Interneting is Hard](https://internetingishard.netlify.app/index.html).  A lot of the design was customized and not copied, in particular the hero section, however the wireframe was initially inspired from the Interneting is Hard website design.
 - General instructions on how to create a toggleable tab navigation section was taken from [W3 Schools](https://www.w3schools.com/howto/howto_js_tabs.asp). The general logic behind the code was learned from this site, but the implemented version was highly customized and altered to suit the site. 
 -  How to structure and style the logic form was taken from [Coding Stella's Codepen](https://codepen.io/codingstella/pen/LYJKQxB). Small adjustments to the form inputs and colour were added to the style. 
-- How to create a sticky aside was learned from [W3 Schools](https://www.w3schools.com/howto/howto_js_sticky_header.asp)
--The actual writing in the blogs were generated by chat-gpt to produce some content that could be used in the pages.
--How to generally style the cards used in the blog home page was learned from [W3 Schools](https://www.w3schools.com/howto/howto_css_cards.asp)
+- How to create a sticky aside was learned from [W3 Schools](https://www.w3schools.com/howto/howto_js_sticky_header.asp). I reverse engineered how the sticky navigation operated from that website and copied some of the element IDs - however the section was styled very differently and javascript logic was added with event listeners to ensure the side navigation disappeared once the user scrolled down far enough on the site. 
+- The actual writing in the blogs were generated by [chat-gpt](https://chat.openai.com/) to produce some content that could be used in the pages.
+- How to generally style the cards used in the blog home page was learned from [W3 Schools](https://www.w3schools.com/howto/howto_css_cards.asp). The general layout for the cards was drawn from here, however I had to use flexbox to reorganise the elements within the cards and completely change the design. 
+- The responsive website mockups were generated using [Am I Responsive](https://ui.dev/amiresponsive?url=https://bom-98.github.io/project_1/index.html).
+- Adobe Illustrator was used to edit the .EPS documents created by [catalyststuff](https://www.freepik.com/author/catalyststuff).
+- Visual Studio Code was the IDE used to create the website.
+- I used [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), an extension within Visual Studio Code to visualise and test my website as I was creating it. 
 
 
 ### [](https://github.com/Code-Institute-Solutions/readme-template#media)Media
 
- -   The images used throughout the website were sourced from Freepik, specifically the author [catalyststuff](https://www.freepik.com/author/catalyststuff)
--   The images used for the gallery page were taken from this other open source site
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer!
-
-## [](https://github.com/Code-Institute-Solutions/readme-template#other-general-project-advice)Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work!
-
--   One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through  [this article](https://chris.beams.io/posts/git-commit/)  by Chris Beams on How to Write a Git Commit Message
-    
-    -   Make sure to keep the messages in the imperative mood
--   When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-    
-    -   For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept.
--   Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-    
-    -   [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-    -   [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-    -   [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process!
+ -   The images used throughout the website were sourced from Freepik, specifically the author [catalyststuff](https://www.freepik.com/author/catalyststuff).
+-   The logo was generated using [Tailor Brands](https://studio.tailorbrands.com/).
