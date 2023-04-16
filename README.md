@@ -6,7 +6,74 @@
 The Startup Academy is a blog for guiding new founders on best practices for achieving product-market fit. The blog is targeted towards startup founders, particularly new founders in Dublin, Ireland. The goal of the website is to distill as much knowledge as possible into articles and present them in a logical order for founders to follow. If a founder is running a company that is already past some of the stages discussed in the blog, they can easily navigate and identify what the next problem area they should explore would be. 
 
 
-![Responsive Mockup](https://github.com/lucyrush/readme-template/raw/master/media/love_running_mockup.png)[Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](https://github.com/lucyrush/readme-template/raw/master/media/love_running_mockup.png)
+## Design Choices
+
+### Colour Scheme
+
+
+### Wire Frames
+I created my wireframe using Balsamiq. 
+
+### User Stories
+
+#### User Story 1: 
+
+- As the creator of a startup in the ideation stage, I'm looking for tools and advice on how to improve my business idea so that I can lay a solid foundation for my startup.
+- Scenario:
+	- Entrepreneur John, 30, is looking for advice on how to develop and validate a new business idea.
+	- He conducts an internet search for websites that provide startup founders with resources.
+	- John visits the Ideation blog page after finding the Startup Academy website.
+	- He discovers helpful tools and articles that assist him refine his business ideas into a more workable plan.
+
+#### User Story 2: 
+
+- In order to build a solution that truly satisfies the demands of my customers, I need resources on knowing my target market and validating my idea. I am a startup founder working on customer discovery.
+
+- Scenario:
+	- A 35-year-old company founder named Jane is focusing on finding customers for her fresh app concept.
+	- She looks for information and tips online to help her understand her target market and validate her product.
+Jane finds the Startup Academy website and goes to the blog page on customer discovery.
+	- She discovers useful publications and tools that assist her in conducting efficient customer research and in honing her product offering.
+
+#### User Story 3: 
+
+- I'm a startup entrepreneur planning for fundraising, and I'm looking for information and advice on how to raise money so I may get the money I need to expand my company.
+
+- Scenario:
+
+	 - A 28-year-old company founder named Alex is getting ready to raise money for his enterprise.
+	- He looks online for information and advice on startup fundraising.
+	- Alex finds the Startup Academy website and visits the blog page for fundraising.
+	- He discovers resources and articles that are instructive, which helps him comprehend the fundraising procedure and create an engaging pitch for investors.
+
+#### User Story 4: 
+
+- In order to continue learning and incorporating fresh perspectives into my firm, I want to stay up to date on the most recent advice and tools for creating a successful startup.
+
+- Scenario:
+
+	- Lisa, a 32-year-old startup founder, is constantly looking for fresh perspectives and tools to advance her company.
+	- She finds the Startup Academy website and sees the subscription form.
+	- To obtain regular information on new blog entries and resources, Lisa subscribes to the newsletter.
+	- She gets routed to a thank you page after submitting the form, which confirms her subscription. She then starts getting helpful content from the Startup Academy in her mailbox on a regular basis.
+
+### Sitemap
+
+A sitemap was generated using [xml-sitemaps.com](https://www.xml-sitemaps.com/details-bom-98.github.io-4988e25b7.html). This was added to the root directory. 
+
+Here is a general overview of the Sitemap: 
+
+- 1. Home - https://bom-98.github.io/project_1/ 
+- 2. Resources 
+	- 2.1 Ideation - https://bom-98.github.io/project_1/ideation.html 
+	- 2.2 Customer Discovery - https://bom-98.github.io/project_1/customer_discovery.html 
+	- 2.3 Fundraising - https://bom-98.github.io/project_1/fundraising.html 
+	- 2.4 Blog Home - https://bom-98.github.io/project_1/blog-home.html
+- 3. Newsletter Signup - https://bom-98.github.io/project_1/newsletter_signup.html 
+- 4. Thank You - https://bom-98.github.io/project_1/thank_you.html
+
+To rank the website on Google Search, a Google HTML file was added to the root directory (/workspaces/project_1/googleb4228df491edf6c8.html).
 
 ## Features
 
@@ -32,9 +99,10 @@ The Startup Academy website features a dedicated homepage where founders can ins
 
 [![Landing Page](https://github.com/lucyrush/readme-template/raw/master/media/love_running_landing.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
--   ** Toggleable Tab Content Section**
+-   **Toggle-Enabled Tab Content Section**
     
     -   The Tab content section will allow the user to see the topics currently covered in the website, and quickly navigate to the area most relevant to them.
+    - The user can click on the different headings to see what blogs have been written under the topic and can then navigate directly to the individual pages for each article within those categories. 
     -   This user will see the wealth of knowledge available on the site, and this should encourage the user to consider registering for the newsletter to receive the content in an orderly fashion.
     - This section will continuously have more content added to it as the blog develops. 
 
@@ -54,7 +122,7 @@ The Startup Academy website features a dedicated homepage where founders can ins
 
 [![Footer](https://github.com/lucyrush/readme-template/raw/master/media/love_running_footer.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
 
--   **Blog Page**
+-   **Blog Home Page**
     - Found on the blog-home.html file. 
     - The blog page will provide the user with a list preview to each blog on the site and links to reach the full article.
     -   This section is valuable to the user as they will be able to easily identify the types of content they want to read.
@@ -79,8 +147,6 @@ The Startup Academy website features a dedicated homepage where founders can ins
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
 ### [](https://github.com/Code-Institute-Solutions/readme-template#features-left-to-implement)Features Left to Implement
 
 -   I would have liked to connect the newsletter forms to an actual mailing list to enable users to receive new content on a regular basis. This would involve creating a backend database and APIs to collect and store the user information, in addition to integrating with a mailing software suce as MailChimp in order to email new subscribers. 
@@ -95,17 +161,29 @@ To ensure the site functions appropriately I conducted a number of tests. This i
 
 -   HTML
     -   No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html)
+    - 
 -   CSS
     -   No errors were found when passing through the official  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    - 
+   - Page Performance
+	   - Perfect 100% score across Performance, Accessibility, Best Practices & SEO on [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-bom-98-github-io-project_1/fjiqdvj3km?form_factor=desktop). 
+	   - 
 
 ## [](https://github.com/Code-Institute-Solutions/readme-template#deployment)Deployment
 
 -   The site was deployed to GitHub pages. The steps to deploy are as follows:
-    -   In the GitHub repository, navigate to the Settings tab
+    -   Before deployment I edited my working directory using Visual Studio Code Remote Explorer. 
+    - I added my files to the staging area using the 'git add .' command in the terminal
+    - Once files were added to the staging area, I committed my files using 'git commit -m 'my message'.
+    - Once my changes had been committed, I pushed the changes to the remote repository using 'git push' in the terminal. 
+    - In the GitHub repository, navigate to the Settings tab
     -   From the source section drop-down menu, select the Master Branch
     -   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here -  [https://bom-98.github.io/project_1/](https://bom-98.github.io/project_1/)
+The live link can be found here -  [https://bom-98.github.io/project_1/](https://bom-98.github.io/project_1/). 
+
+
+
 
 ## [](https://github.com/Code-Institute-Solutions/readme-template#credits)Credits
 
@@ -124,6 +202,9 @@ The live link can be found here -  [https://bom-98.github.io/project_1/](https:/
 - Adobe Illustrator was used to edit the .EPS documents created by [catalyststuff](https://www.freepik.com/author/catalyststuff).
 - Visual Studio Code was the IDE used to create the website.
 - I used [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), an extension within Visual Studio Code to visualise and test my website as I was creating it. 
+- Colour scheme was displayed (not generated) using [Coolors](https://coolors.co/).
+- Favicon created using [favicon.io](https://favicon.io/favicon-converter/).
+- Wireframes were created using [Balsamiq](https://balsamiq.com/). 
 
 
 ### [](https://github.com/Code-Institute-Solutions/readme-template#media)Media
