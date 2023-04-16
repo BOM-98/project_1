@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for https://bom-98.github.io/project_1/</title>
+  <link>https://bom-98.github.io/project_1/</link>
+
+<item>
+     <link>https://bom-98.github.io/project_1/</link>
+     <title>Startup Academy</title>
+     <description>The best resource for Irish startup founders</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://bom-98.github.io/project_1/index.html</link>
+     <title>Startup Academy</title>
+     <description>The best resource for Irish startup founders</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://bom-98.github.io/project_1/blog-home.html</link>
+     <title>Startup Academy</title>
+     <description>The best resource for Irish startup founders</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+<item>
+     <link>https://bom-98.github.io/project_1/contact.html</link>
+     <title>Startup Academy Contact</title>
+     <description>The best resource for Irish startup founders</description>
+     <ror:updatePeriod></ror:updatePeriod>
+     <ror:sortOrder>1</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  
