@@ -704,8 +704,8 @@ footer ul {
   right: 28px;
   top: 450px;
   max-width: 250px;
-  background-color: rgba(25, 25, 25, 0.05);
-  box-shadow: 0 15px 25px rgba(0, 0, 0, .3);
+  border-left: 1px solid var(--global-color-primary);
+  border-radius: 0px;
 }
 
 .chapter-sidebar ul {
@@ -715,10 +715,11 @@ footer ul {
 }
 
 .chapter-sidebar ul li a {
-  color: var(--global-color-primary);
+  color: var(--global-text-color);
+  text-align: center;
   text-decoration: none;
   display: block;
-  border-bottom: 0.5px solid var(--global-color-primary);
+  border-bottom: 1px solid var(--global-text-color);
 }
 
 .sidebar-sticky {
