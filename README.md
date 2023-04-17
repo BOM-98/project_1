@@ -15,11 +15,27 @@ The Startup Academy is a blog for guiding new founders on best practices for ach
 ### Wire Frames
 I created my wireframe using Balsamiq.
 
+#### Home Page
+
+The home page and Hero section was designed to provide a brief description of the Startup Academy with a call to action to sign up to the newsletter. In the implementation a secondary CTA button was added linking to the articles.
+
 ![Wireframe1](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Home%20Page.png)
+
+#### Blog Page
+
+The blog page outlined the basic structure that would be used by the 'Ideation', 'Customer Discovery' and 'Fundraising' articles. It featured a header image with the page content section directly below and a sticky side panel for navigating to different article headings. The side panel will disappear once the user scrolls to the contact section. The blog page is finished off with a contact section.  
 
 ![Wireframe2](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Blog%20Pages.png)
 
+#### Contact Page
+
+The contact page is purely intended to get users to get users to register for the website. An about page was going to be implemented underneath, highlighted in green, however this was not implemented as there isn't a set location for the website. 
+
 ![Wireframe3](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Contact%20Page.png)
+
+#### Thank You Page
+
+The thank you page is arrived at as soon as a user submits a form on the website. It features a main image followed by a 'back to home' button to ease navigation back to the home page. 
 
 ![Wireframe4](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Thank%20You%20Page!.png)
 
