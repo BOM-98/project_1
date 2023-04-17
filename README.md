@@ -6,7 +6,7 @@
 The Startup Academy is a blog for guiding new founders on best practices for achieving product-market fit. The blog is targeted towards startup founders, particularly new founders in Dublin, Ireland. The goal of the website is to distill as much knowledge as possible into articles and present them in a logical order for founders to follow. If a founder is running a company that is already past some of the stages discussed in the blog, they can easily navigate and identify what the next problem area they should explore would be. 
 
 
-![Responsive Mockup](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/responsive-images.png)
+![Hero Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Home%20Page.png)
 ## Design Choices
 
 ### Colour Scheme
@@ -101,7 +101,7 @@ To rank the website on Google Search, a Google HTML file was added to the root d
 
 A visual skeleton of the website is shown in the below image.
 
-![sitemap]()
+![sitemap](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Site-Map-Project-1.png)
 
 ## Features
 
@@ -127,7 +127,7 @@ Existing Features
     -   The landing includes a photograph of the website mascot alongside text with relevant button links to inform the user of the website's purpose and provide easy navigation to further resources.
     -   This section introduces the user to The Startup Academy with a neomorphism style for the hero section to portray a more modern feel for the website and make it feel more relevant for tech founders in particular.
 
-![Hero Section][https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png)
+![Hero Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png)
 
 -   **Toggle-Enabled Tab Content Section**
     
@@ -158,7 +158,7 @@ Existing Features
     -   This section is valuable to the user as they will be able to easily identify the types of content they want to read.
     - Each article is displayed with a corresponding image that alternates on the left or right depending on the order of the article in the list.
 
-[![Hero Section Top](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/blog-home-top-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/blog-home-top-image.png)
+![Blog Home Section Top](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/blog-home-top-image.png)
 
 -   **Article Pages**
 
@@ -170,10 +170,10 @@ Existing Features
 
 -   **The Sign Up Page**
     
-    -   Found on the contact.html file. 
+    - Found on the contact.html file. 
     - This page will allow the user to get signed up to The Startup Academy newsletter to start their learning journey. The user will be asked to submit their Email Address, Full Name, Company and Job Title.
 
-[![Sign Up](https://github.com/lucyrush/readme-template/raw/master/media/love_running_signup.png)](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+[![Sign Up](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Contact%20Page.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Contact%20Page.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
