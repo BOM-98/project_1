@@ -106,6 +106,14 @@ A visual skeleton of the website is shown in the below image.
 
 ![sitemap](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Site-Map-Project-1.png)
 
+The sitemap was uploaded to Google Search Console to improve page ranking on Google search.
+
+![sitemapUpload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Sitemap%20Submission%20Approval.png).
+
+A sitemap HTML tag was also added to the root repository to enable Google to validate the site ownership. 
+
+![sitemapHTMLUpload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Sitemap%20HTML%20file.png)
+
 ## Features
 
 The Startup Academy website features a dedicated homepage where founders can instantly navigate to all the relevant resources contained on the site. This includes a responsive navigation bar, a tab section where users can toggle between blog content to arrive at the area most relevant to them, a form to sign up to the newsletter, a thank you page for anyone who has submitted a form and three blog pages with content on Ideation, Customer Discovery and Fundraising.  
@@ -196,10 +204,14 @@ To ensure the site functions appropriately I conducted a number of tests. This i
 
 -   HTML
     -   No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html).
+    ![W3Cvalidator](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/html-validator-check.png)
 -   CSS
     -   No errors were found when passing through the official  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
+    ![JigsawValidator](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/css-validator-check.png)
    - Page Performance
-	   - Perfect 100% score across Performance, Accessibility, Best Practices & SEO on [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-bom-98-github-io-project_1/fjiqdvj3km?form_factor=desktop). 
+	   - Perfect 100% score across Performance, Accessibility, Best Practices & SEO on [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-bom-98-github-io-project_1/fjiqdvj3km?form_factor=desktop).
+       ![PageSpeedDesktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/PageSpeed%20Test%20Result.png)
+       ![PageSpeedMobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/PageSpeed%20Test%20Result%20Mobile.png) 
     - Manual Testing
         -  My mentor and I continually tested the website during our two calls throughout the project
         - I received manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended
