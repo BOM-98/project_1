@@ -6,11 +6,14 @@
 The Startup Academy is a blog for guiding new founders on best practices for achieving product-market fit. The blog is targeted towards startup founders, particularly new founders in Dublin, Ireland. The goal of the website is to distill as much knowledge as possible into articles and present them in a logical order for founders to follow. If a founder is running a company that is already past some of the stages discussed in the blog, they can easily navigate and identify what the next problem area they should explore would be. 
 
 
-![Hero Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Home%20Page.png)
+![Hero Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png)
 ## Design Choices
 
 ### Colour Scheme
 
+I chose this colour scheme keeping in mind the need for contrast between colours on the website for accessibility. The strong Red Violet primary colour is intended to be striking and attention grabbing relative to the Eerie black background and convey the symbol of risk and danger for a journey that many of these entrepreneurs will embark on, but gladly embrace. 
+
+![ColourPalette](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/colour-pallette-image.png)
 
 ### Wire Frames
 I created my wireframe using Balsamiq.
@@ -167,13 +170,15 @@ Existing Features
 	- There is a sticky side navigation with links to the relevant headings in the article to assist the user in arriving at the right sections of the article that they are interested in. The sticky navigation disappears at the end of the article to prevent it interfering with other sections.
 	- Each article ends with a call to action signup form to further encourage users to join the newsletter.
 
+![ArticleTop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-top-image.png)
+![ArtileMid](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-middle-section-image.png)
 
 -   **The Sign Up Page**
     
     - Found on the contact.html file. 
     - This page will allow the user to get signed up to The Startup Academy newsletter to start their learning journey. The user will be asked to submit their Email Address, Full Name, Company and Job Title.
 
-[![Sign Up](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Contact%20Page.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Contact%20Page.png)
+[![Sign Up](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/newsletter-section-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/newsletter-section-image.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
@@ -190,14 +195,14 @@ To ensure the site functions appropriately I conducted a number of tests. This i
 ### [](https://github.com/Code-Institute-Solutions/readme-template#validator-testing)Validator Testing
 
 -   HTML
-    -   No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html)
-    - 
+    -   No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html).
 -   CSS
-    -   No errors were found when passing through the official  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-    - 
+    -   No errors were found when passing through the official  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
    - Page Performance
 	   - Perfect 100% score across Performance, Accessibility, Best Practices & SEO on [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-bom-98-github-io-project_1/fjiqdvj3km?form_factor=desktop). 
-	   - 
+    - Manual Testing
+        -  My mentor and I continually tested the website during our two calls throughout the project
+        - I received manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended
 
 ## [](https://github.com/Code-Institute-Solutions/readme-template#deployment)Deployment
 
@@ -241,3 +246,6 @@ The live link can be found here -  [https://bom-98.github.io/project_1/](https:/
 
  -   The images used throughout the website were sourced from Freepik, specifically the author [catalyststuff](https://www.freepik.com/author/catalyststuff).
 -   The logo was generated using [Tailor Brands](https://studio.tailorbrands.com/).
+
+
+I would like to thank my Mentor [CluelessBiker](https://github.com/CluelessBiker) for all of her help in getting this project live. She has contributed massively through her advice in making sure this website was free of bugs and met the requirements of the course. 
