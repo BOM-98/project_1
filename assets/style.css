@@ -113,6 +113,40 @@ nav ul li a:hover {
   margin: 0 5%;
 }
 
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: 1px solid var(--global-color-primary); /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: none; /* Set a background color */
+  opacity: 0.8;
+  color: var(--global-text-color); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: fit-content;
+}
+
+#myBtn:hover {
+  background-color: var(--global-color-primary);
+  /* Add a dark-grey background on hover */
+  opacity: 1;
+  box-shadow: 0 0 5px var(--global-color-primary), 
+  0 0 7.5px var(--global-color-primary), 
+  0 0 7.5px var(--global-color-primary), 
+  0 0 10px var(--global-color-primary);
+  color: var(--global-color-background);
+}
+
+#myBtn img {
+  width: 20px;
+  height: 20px;
+}
+
 /* ======================================== hero section ======================================== */
 
 #hero {
@@ -576,6 +610,8 @@ footer nav {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   border: none;
   width: 25%;
   flex-grow: 1;
@@ -1058,6 +1094,7 @@ footer ul {
   footer nav h2,
   footer div h2 {
     text-align: center;
+    align-self: center;
   }
 
   /* Adjust footer navigation layout for screens up to 500px */
@@ -1076,6 +1113,13 @@ footer ul {
   #logo {
     content: url("images/logo/shortened_logo_transparent_background.webp");
   }
+
+  #myBtn {
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 10px; /* Place the button 30px from the right */
+  }
+
+  
 
 }
 
