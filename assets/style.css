@@ -613,7 +613,7 @@ footer nav {
   align-items: center;
   justify-content: center;
   border: none;
-  width: 25%;
+  width: fit-content;
   flex-grow: 1;
 }
 
@@ -666,6 +666,11 @@ footer ul {
   align-items: center;
   list-style: none;
   margin: 1rem;
+}
+
+footer nav h2, footer div h2 {
+  text-align: center;
+  align-self: center;
 }
 
 .contact_main h1 {
@@ -1083,31 +1088,7 @@ footer ul {
     width: fit-content;
   }
 
-  /* Adjust footer layout for screens up to 500px */
-  footer {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Adjust footer navigation header and div header alignment for screens up to 500px */
-  footer nav h2,
-  footer div h2 {
-    text-align: center;
-    align-self: center;
-  }
-
-  /* Adjust footer navigation layout for screens up to 500px */
-  footer nav {
-    padding: 0;
-    justify-content: center;
-    align-items: center;
-  }
-
-  /* Adjust footer navigation unordered list layout for screens up to 500px */
-  footer ul {
-    margin: 1rem 0 1rem 0;
-  }
+ 
 
   /* Adjust top navigation logo to remove tagline */
   #logo {
@@ -1117,6 +1098,11 @@ footer ul {
   #myBtn {
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 10px; /* Place the button 30px from the right */
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
   }
 
   
