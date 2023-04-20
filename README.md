@@ -2,6 +2,24 @@
 > # The Startup Academy
 
 ## Table of Contents
+- [Introduction]
+- [Design Choices](https://github.com/BOM-98/project_1#design-choices)
+    - [Colour Scheme](https://github.com/BOM-98/project_1#colour-scheme)
+    - [Wire Frames](https://github.com/BOM-98/project_1#wire-frames)
+    - [User Stories](https://github.com/BOM-98/project_1#user-stories)
+    - [Sitemap](https://github.com/BOM-98/project_1#sitemap)
+- [Features](https://github.com/BOM-98/project_1#features)
+- [Features Left to Implement](https://github.com/BOM-98/project_1#features-left-to-implement)
+- [Testing](https://github.com/BOM-98/project_1#testing)
+    - [Validator Testing](https://github.com/BOM-98/project_1#validator-testing)
+    - [Manual Testing]()
+- [Deployment](https://github.com/BOM-98/project_1#deployment)
+- [Credits](https://github.com/BOM-98/project_1#credits)
+    - [Content](https://github.com/BOM-98/project_1#content)
+    - [Media](https://github.com/BOM-98/project_1#media)
+
+
+
 
 The Startup Academy is a blog for guiding new founders on best practices for achieving product-market fit. The blog is targeted towards startup founders, particularly new founders in Dublin, Ireland. The goal of the website is to distill as much knowledge as possible into articles and present them in a logical order for founders to follow. If a founder is running a company that is already past some of the stages discussed in the blog, they can easily navigate and identify what the next problem area they should explore would be. 
 
@@ -91,10 +109,10 @@ A sitemap was generated using [xml-sitemaps.com](https://www.xml-sitemaps.com/de
 
 Here is a general overview of the Sitemap: 
 
-- 1. Home - https://bom-98.github.io/project_1/ 
+- 1. [Home](https://bom-98.github.io/project_1/)
 - 2. Resources 
-	- 2.1 Ideation - https://bom-98.github.io/project_1/ideation.html 
-	- 2.2 Customer Discovery - https://bom-98.github.io/project_1/customer_discovery.html 
+	- 2.1 [Ideation](https://bom-98.github.io/project_1/ideation.html) 
+	- 2.2 [Customer Discovery](https://bom-98.github.io/project_1/customer_discovery.html)
 	- 2.3 Fundraising - https://bom-98.github.io/project_1/fundraising.html 
 	- 2.4 Blog Home - https://bom-98.github.io/project_1/blog-home.html
 - 3. Newsletter Signup - https://bom-98.github.io/project_1/newsletter_signup.html 
