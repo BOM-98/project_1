@@ -75,7 +75,7 @@ nav ul {
 
 /* logo */
 
-#logo_link {
+#logo-link {
   align-self: flex-start;
 }
 
@@ -113,7 +113,7 @@ nav ul li a:hover {
 
 /* ======================================== main content ======================================== */
 
-.content_margin_container {
+.content-margin-container {
   margin: 0 5%;
 }
 
@@ -174,7 +174,7 @@ nav ul li a:hover {
   border-radius: 30px;
 }
 
-.hero_text_area {
+.hero-text-area {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -182,7 +182,7 @@ nav ul li a:hover {
   width: 50%;
 }
 
-.hero_image_area {
+.hero-image-area {
   width: 50%;
   max-height: 90%;
   display: flex;
@@ -191,7 +191,7 @@ nav ul li a:hover {
   background-position: center;
 }
 
-.hero_image_area img {
+.hero-image-area img {
   width: 100%;
   height: 100%;
   max-height: 50vh;
@@ -199,14 +199,14 @@ nav ul li a:hover {
   object-fit: contain;
 }
 
-.hero_text_area h1 {
+.hero-text-area h1 {
   font-size: 2.5rem;
   margin-bottom: 1rem;
   padding: 1rem;
   color: var(--global-color-background);
 }
 
-.hero_text_area p {
+.hero-text-area p {
   font-size: 1.1rem;
   font-family: sans-serif;
   margin-bottom: 1.5rem;
@@ -220,7 +220,7 @@ nav ul li a:hover {
   border-bottom: 3px solid var(--global-color-primary);
 }
 
-#hero_button_container {
+#hero-button-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -245,7 +245,7 @@ button {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.main_button {
+.main-button {
   box-shadow: 0 0 5px var(--global-color-primary),
     0 0 7.5px var(--global-color-primary),
     0 0 7.5px var(--global-color-primary),
@@ -304,11 +304,11 @@ a { color: white; text-decoration: none; }
 
 /* ======================================== tab section ======================================== */
 
-.tab_section {
+.tab-section {
   margin: 5% 0;
 }
 
-.tab_container {
+.tab-container {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -316,7 +316,7 @@ a { color: white; text-decoration: none; }
   padding: 2rem 2rem 0 2rem;
 }
 
-.tab_content_container {
+.tab-content-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -339,12 +339,12 @@ a { color: white; text-decoration: none; }
   box-shadow: 0 0px 20px 0 rgba(19, 19, 19, 0.2);
 }
 
-.tab_section h2,
-.tab_section p {
+.tab-section h2,
+.tab-section p {
   text-align: center;
 }
 
-.tab_section h2 {
+.tab-section h2 {
   margin: 1rem 0 1rem 0;
   color: var(--global-color-primary);
   font-size: 2rem;
@@ -428,7 +428,7 @@ a { color: white; text-decoration: none; }
 
 /* ======================================== Contact section ======================================== */
 
-.contact_section {
+.contact-section {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -438,20 +438,20 @@ a { color: white; text-decoration: none; }
   box-shadow: 0 0px 20px 0 rgba(255, 255, 255, 0.2);
 }
 
-.contact_text {
+.contact-text {
   display: flex;
   flex-direction: column;
   width: 100%;
   max-width: 300px;
 }
 
-.contact_text p {
+.contact-text p {
   font-family: sans-serif;
   width: 100%;
   text-align: center;
 }
 
-.contact_text h2 {
+.contact-text h2 {
   color: var(--global-color-primary);
   text-align: center;
 }
@@ -665,7 +665,7 @@ footer div {
   width: 25%;
 }
 
-.footer_nav {
+.footer-nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -713,7 +713,7 @@ footer nav h2, footer div h2 {
   align-self: center;
 }
 
-.contact_main h1 {
+.contact-main h1 {
   margin: 0 auto 0 auto;
   text-align: center;
   padding-top: 2rem;
@@ -722,14 +722,14 @@ footer nav h2, footer div h2 {
 
 /*======================================== Blog Page ======================================== */
 
-.content__wrapper {
+.content-wrapper {
   padding-top: 80px;
   padding-bottom: 80px;
   max-width: 580px;
   margin: 0 auto 0 auto;
 }
 
-#blog_header {
+#blog-header {
   min-height: 25vh;
   background: var(--global-body--background);
   width: 100%;
@@ -741,16 +741,16 @@ footer nav h2, footer div h2 {
   z-index: -1;
 }
 
-.astronaut_ideating {
+.astronaut-ideating {
   width: 100%;
   height: 100%;
 }
 
-.blog_header img {
+.blog-header img {
   max-height: 25vh;
 }
 
-.blog_header h1 {
+.blog-header h1 {
   color: var(--global-color-background);
   font-size: 2rem;
   font-weight: 700;
@@ -759,7 +759,7 @@ footer nav h2, footer div h2 {
   text-decoration: underline;
 }
 
-.blog_header {
+.blog-header {
   width: 100%;
   height: 100%;
   display: flex;
@@ -770,11 +770,11 @@ footer nav h2, footer div h2 {
   background: var(--global-body--background);
 }
 
-.blog_header .hero_image_area {
+.blog-header .hero-image-area {
   z-index: 1;
 }
 
-.blog_content {
+.blog-content {
   overflow: visible;
   height: fit-content;
 }
@@ -812,7 +812,7 @@ footer nav h2, footer div h2 {
   z-index: 0;
 }
 
-.contact_section {
+.contact-section {
   z-index: 1;
 }
 
@@ -828,16 +828,16 @@ footer nav h2, footer div h2 {
   border-radius: 20px;
 }
 
-.card_image_left {
+.card-image-left {
   display: flex;
   align-items: center;
 }
 
-.card_image_right img {
+.card-image-right img {
   order: 1;
 }
 
-.card_image_right .card_container {
+.card-image-right .card-container {
   order: 0;
 }
 
@@ -853,12 +853,12 @@ footer nav h2, footer div h2 {
 }
 
 /* Add some padding inside the card container */
-.card_container {
+.card-container {
   padding: 1rem 2rem;
   max-height: 40vh;
 }
 
-.card_container p {
+.card-container p {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
@@ -867,27 +867,27 @@ footer nav h2, footer div h2 {
 
 /* ======================================== Thank You Page ======================================== */
 
-.thank_you_hero {
+.thank-you-hero {
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.thank_you_hero h1 {
+.thank-you-hero h1 {
   font-size: 4rem;
   text-align: center;
   padding: 2rem;
 }
 
-.thank_you_hero p {
+.thank-you-hero p {
   text-align: center;
 }
 
-.thank_you_hero img {
+.thank-you-hero img {
   max-height: 40vh;
 }
 
-.thank_you_hero .hero_text_area {
+.thank-you-hero .hero-text-area {
   padding: 0rem 2rem 2rem 2rem;
 }
 
@@ -896,8 +896,8 @@ footer nav h2, footer div h2 {
 /* Semi-large screens */
 @media all and (max-width: 1200px) {
 
-  /* Adjust hero_text_area padding for screens up to 1200px */
-  .hero_text_area {
+  /* Adjust hero-text-area padding for screens up to 1200px */
+  .hero-text-area {
     padding: 1rem 0 1rem 2rem;
   }
 
@@ -917,15 +917,15 @@ footer nav h2, footer div h2 {
     flex-direction: column;
   }
 
-  /* Adjust hero_text_area width, order and padding for screens up to 1000px */
-  .hero_text_area {
+  /* Adjust hero-text-area width, order and padding for screens up to 1000px */
+  .hero-text-area {
     width: 100%;
     order: 1;
     padding: 0 4rem 2rem 4rem;
   }
 
-  /* Adjust hero_image_area width and order for screens up to 1000px */
-  .hero_image_area {
+  /* Adjust hero-image-area width and order for screens up to 1000px */
+  .hero-image-area {
     width: 100%;
     order: 0;
   }
@@ -950,7 +950,7 @@ footer nav h2, footer div h2 {
   /* ========= Tab Section ========= */
 
   /* Adjust tab section button font size for screens up to 1000px */
-  .tab_section button {
+  .tab-section button {
     font-size: 0.8rem;
   }
 }
@@ -984,7 +984,7 @@ footer nav h2, footer div h2 {
   }
 
   /* Adjust top navigation responsive logo link for screens up to 900px */
-  .topnav.responsive #logo_link {
+  .topnav.responsive #logo-link {
     margin: 0 auto 0 auto;
   }
 
@@ -1004,7 +1004,7 @@ footer nav h2, footer div h2 {
   }
 
   /* Adjust tab content container button width for screens up to 800px */
-  .tab_content_container button {
+  .tab-content-container button {
     width: fit-content;
   }
 
@@ -1015,14 +1015,14 @@ footer nav h2, footer div h2 {
     width: 100%;
   }
 
-  /* Adjust contact_section layout for screens up to 800px */
-  .contact_section {
+  /* Adjust contact-section layout for screens up to 800px */
+  .contact-section {
     flex-direction: column;
     align-items: center;
   }
 
-  /* Adjust contact_text order, width, and margin for screens up to 800px */
-  .contact_text {
+  /* Adjust contact-text order, width, and margin for screens up to 800px */
+  .contact-text {
     order: 0;
     width: 100%;
     max-width: none;
@@ -1041,21 +1041,21 @@ footer nav h2, footer div h2 {
     justify-content: center;
   }
 
-  /* Adjust card_container layout for screens up to 800px */
-  .card .card_container {
+  /* Adjust card-container layout for screens up to 800px */
+  .card .card-container {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  /* Adjust card_container paragraph and header alignment for screens up to 800px */
-  .card_container p,
-  .card_container h2 {
+  /* Adjust card-container paragraph and header alignment for screens up to 800px */
+  .card-container p,
+  .card-container h2 {
     text-align: center;
   }
 
-  /* Adjust card_image_right image order for screens up to 800px */
-  .card_image_right img {
+  /* Adjust card-image-right image order for screens up to 800px */
+  .card-image-right img {
     order: -1;
   }
 }
@@ -1064,7 +1064,7 @@ footer nav h2, footer div h2 {
 @media all and (max-width: 500px) {
 
   /* Adjust logo image width for screens up to 500px */
-  nav #logo_link img {
+  nav #logo-link img {
     width: 30vw;
   }
 
@@ -1073,8 +1073,8 @@ footer nav h2, footer div h2 {
     margin: 2%;
   }
 
-  /* Adjust hero_text_area padding for screens up to 500px */
-  .hero_text_area {
+  /* Adjust hero-text-area padding for screens up to 500px */
+  .hero-text-area {
     padding: 5%;
   }
 
@@ -1096,7 +1096,7 @@ footer nav h2, footer div h2 {
   }
 
   /* Adjust hero button container layout for screens up to 500px */
-  #hero_button_container {
+  #hero-button-container {
     flex-direction: column;
   }
 
@@ -1107,24 +1107,24 @@ footer nav h2, footer div h2 {
   }
 
   /* Adjust tab content container header font size and alignment for screens up to 500px */
-  .tab_content_container h2 {
+  .tab-content-container h2 {
     font-size: 1.25rem;
     text-align: center;
   }
 
   /* Adjust tab content container paragraph font size and alignment for screens up to 500px */
-  .tab_content_container p {
+  .tab-content-container p {
     font-size: 1rem;
     text-align: center;
   }
 
   /* Adjust tab content container image size for screens up to 500px */
-  .tab_content_container img {
+  .tab-content-container img {
     max-height: 20vh;
   }
 
   /* Adjust tab content container button width for screens up to 500px */
-  .tab_content_container button {
+  .tab-content-container button {
     width: fit-content;
   }
 
@@ -1132,7 +1132,7 @@ footer nav h2, footer div h2 {
 
   /* Adjust top navigation logo to remove tagline */
   #logo {
-    content: url("images/logo/shortened_logo_transparent_background.webp");
+    content: url("images/logo/shortened-logo-transparent-background.webp");
   }
 
   #myBtn {

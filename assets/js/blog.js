@@ -1,7 +1,8 @@
 // Get the chapter-sidebar element
 const chapterSidebar = document.querySelector('.chapter-sidebar');
+// Get the blog-content element
 const blogContent = document.querySelector('.blog-content');
-const formPosition = window.scrollY + document.querySelector('.contact_section').getBoundingClientRect().top;
+const formPosition = window.scrollY + document.querySelector('.contact-section').getBoundingClientRect().top;
 
 /**
  * Checks the window scroll position and toggles the 'sidebar-sticky' class on the

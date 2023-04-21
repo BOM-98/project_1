@@ -1,29 +1,35 @@
+/**
+ * Opens the selected subject tab and hides the others.
+ *
+ * @param {Event} evt - The event triggered by the user interaction, typically a click event.
+ * @param {string} subjectName - The ID of the subject element to be displayed.
+ */
 function openSubject(evt, subjectName) {
-    // Declare all variables
-    var i, tabcontent, tablinks;
-  
-    // Get all elements with class="tabcontent" and hide them
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-  
-    // Get all elements with class="tablinks" and remove the class "active"
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-  
-    // Show the current tab, and add an "active" class to the button that opened the tab
-    document.getElementById(subjectName).style.display = "flex";
-    evt.currentTarget.className += " active";
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(subjectName).style.display = "flex";
+  evt.currentTarget.className += " active";
+}
 
 /** get the element with id="defaultOpen" and click on it
  * @returns {void} defaultOpen is clicked
  */
 function defaultFunction() {
-    document.getElementById("defaultOpen").click();
+  document.getElementById("defaultOpen").click();
 }
 
 /**
@@ -62,8 +68,12 @@ document.addEventListener('DOMContentLoaded', function () {
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () { scrollFunction() };
 
+/**
+ * Toggles the display of a button based on the scroll position of the page.
+ * The button is displayed when the scroll position is greater than 20px and hidden otherwise.
+ */
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     mybutton.style.display = "block";
