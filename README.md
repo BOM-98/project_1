@@ -174,8 +174,8 @@ The Startup Academy website features a dedicated homepage where founders can ins
     - This section will continuously have more content added to it as the blog develops. 
 
 ![Toggle-Enabled Tab Content Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/tab-section-image.png)
-![Toggle-Enabled Customer Discovery Section]()
-![Toggle-Enabled Fundraising Section]()
+![Toggle-Enabled Customer Discovery Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-tabcontent.png)
+![Toggle-Enabled Fundraising Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/fundraising-tabcontent.png)
 
 -  #### **Mailing List Section**
     
@@ -242,7 +242,9 @@ To ensure the site functions appropriately I conducted a number of tests. This i
        ![PageSpeed Desktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result.png)
        Mobile
        ![PageSpeed Mobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result-mobile.png) 
+       
 ### Manual Testing
+
     - For each new page implementation
         - every page link was checked to make sure they redirected to the correct source
         - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions
