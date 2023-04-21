@@ -48,25 +48,25 @@ I created my wireframe using Balsamiq.
 
 The home page and Hero section was designed to provide a brief description of the Startup Academy with a call to action to sign up to the newsletter. In the implementation a secondary CTA button was added linking to the articles.
 
-![Wireframe1](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Home%20Page.png)
+![Wireframe1](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/home-page.png)
 
 #### Blog Page
 
 The blog page outlined the basic structure that would be used by the 'Ideation', 'Customer Discovery' and 'Fundraising' articles. It featured a header image with the page content section directly below and a sticky side panel for navigating to different article headings. The side panel will disappear once the user scrolls to the contact section. The blog page is finished off with a contact section.  
 
-![Wireframe2](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Blog%20Pages.png)
+![Wireframe2](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/blog-pages.png)
 
 #### Contact Page
 
 The contact page is purely intended to get users to get users to register for the website. An about page was going to be implemented underneath, highlighted in green, however this was not implemented as there isn't a set location for the website. 
 
-![Wireframe3](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Contact%20Page.png)
+![Wireframe3](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/contact-page.png)
 
 #### Thank You Page
 
 The thank you page is arrived at as soon as a user submits a form on the website. It features a main image followed by a 'back to home' button to ease navigation back to the home page. 
 
-![Wireframe4](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Thank%20You%20Page!.png)
+![Wireframe4](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/thank-you-page!.png)
 
 ### User Stories
 
@@ -130,15 +130,15 @@ To rank the website on Google Search, a Google HTML file was added to the root d
 
 A visual skeleton of the website is shown in the below image.
 
-![sitemap](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Site-Map-Project-1.png)
+![sitemap](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/site-map-project-1.png)
 
 The sitemap was uploaded to Google Search Console to improve page ranking on Google search.
 
-![sitemapUpload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Sitemap%20Submission%20Approval.png).
+![sitemapUpload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/sitemap-submission-approval.png).
 
 A sitemap HTML tag was also added to the root repository to enable Google to validate the site ownership. 
 
-![sitemapHTMLUpload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/Sitemap%20HTML%20file.png)
+![sitemapHTMLUpload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/sitemap-html-file.png)
 
 ## Features
 
@@ -236,8 +236,8 @@ To ensure the site functions appropriately I conducted a number of tests. This i
     ![JigsawValidator](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/css-validator-check.png)
    - Page Performance
 	   - Perfect 100% score across Performance, Accessibility, Best Practices & SEO on [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-bom-98-github-io-project_1/fjiqdvj3km?form_factor=desktop).
-       ![PageSpeedDesktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/PageSpeed%20Test%20Result.png)
-       ![PageSpeedMobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/PageSpeed%20Test%20Result%20Mobile.png) 
+       ![PageSpeedDesktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result.png)
+       ![PageSpeedMobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result-mobile.png) 
 ### []()Manual Testing
     - For each new page implementation
         - every page link was checked to make sure they redirected to the correct source
