@@ -37,7 +37,9 @@ The Startup Academy is a blog for guiding new founders on best practices for ach
 
 ### Colour Scheme
 
-I chose this colour scheme keeping in mind the need for contrast between colours on the website for accessibility. The strong Red Violet primary colour is intended to be striking and attention grabbing relative to the Eerie black background and convey the symbol of risk and danger for a journey that many of these entrepreneurs will embark on, but gladly embrace. 
+I chose this colour scheme keeping in mind the need for contrast between colours on the website for accessibility. The strong Red Violet primary colour is intended to be striking and attention grabbing relative to the Eerie black background and convey the symbol of risk and danger for a journey that many of these entrepreneurs will embark on, but gladly embrace.
+
+As a point of note, some contrast checkers threw errors on the use of the Red Violet colour on the background of Eerie black. This was done very sparringly in the hero section, footer section and animated sections of forms to highlight one or two words or to underline active links. I made the choice, aesthetically speaking, to leave the colours as they were, as I believe they did not hider readability or accessiblity significantly enough to warrant changing them. The aesthetic outcome was prioritised in this case, as I believe there was still a significant enough contract for people to easily identify the words. The other elements surrounding the words had a strong contrast with the background and made it obvious that there was a word there.  
 
 ![ColourPalette](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/colour-pallette-image.png)
 
@@ -66,7 +68,7 @@ The contact page is purely intended to get users to get users to register for th
 
 The thank you page is arrived at as soon as a user submits a form on the website. It features a main image followed by a 'back to home' button to ease navigation back to the home page. 
 
-![Wireframe4](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/thank-you-page!.png)
+![Wireframe4](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/thank-you-page.png)
 
 ### User Stories
 
@@ -238,7 +240,7 @@ To ensure the site functions appropriately I conducted a number of tests. This i
 	   - Perfect 100% score across Performance, Accessibility, Best Practices & SEO on [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-bom-98-github-io-project_1/fjiqdvj3km?form_factor=desktop).
        ![PageSpeedDesktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result.png)
        ![PageSpeedMobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result-mobile.png) 
-### []()Manual Testing
+### Manual Testing
     - For each new page implementation
         - every page link was checked to make sure they redirected to the correct source
         - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions
@@ -260,15 +262,9 @@ To ensure the site functions appropriately I conducted a number of tests. This i
 
 The live link can be found [here](https://bom-98.github.io/project_1/). 
 
-
-
-
 ## Credits
 
-
-
 ### Content
-
 
 - Inspiration on the hero section and the layout of the blog pages was taken from [Interneting is Hard](https://internetingishard.netlify.app/index.html).  A lot of the design was customized and not copied, in particular the hero section, however the wireframe was initially inspired from the Interneting is Hard website design.
 - General instructions on how to create a toggleable tab navigation section was taken from [W3 Schools](https://www.w3schools.com/howto/howto_js_tabs.asp). The general logic behind the code was learned from this site, but the implemented version was highly customized and altered to suit the site. 
@@ -285,11 +281,9 @@ The live link can be found [here](https://bom-98.github.io/project_1/).
 - Favicon created using [favicon.io](https://favicon.io/favicon-converter/).
 - Wireframes were created using [Balsamiq](https://balsamiq.com/). 
 
-
 ### Media
 
  -   The images used throughout the website were sourced from Freepik, specifically the author [catalyststuff](https://www.freepik.com/author/catalyststuff).
 -   The logo was generated using [Tailor Brands](https://studio.tailorbrands.com/).
-
 
 I would like to thank my Mentor [CluelessBiker](https://github.com/CluelessBiker) for all of her help in getting this project live. She has contributed so much through her advice in making sure this website was free of bugs and met the requirements of the course. 
