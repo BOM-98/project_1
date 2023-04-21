@@ -125,7 +125,6 @@ nav ul li a:hover {
   z-index: 99; /* Make sure it does not overlap */
   border: 1px solid var(--global-color-primary); /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: none; /* Set a background color */
   opacity: 0.8;
   color: var(--global-text-color); /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
@@ -992,7 +991,7 @@ footer nav h2, footer div h2 {
 
 /* Medium screens */
 @media all and (max-width: 800px) {
-
+  
   /* Wrap tab buttons for screens up to 800px */
   .tab {
     flex-wrap: wrap;
@@ -1063,6 +1062,20 @@ footer nav h2, footer div h2 {
 /* Small screens */
 @media all and (max-width: 500px) {
 
+   /* Adjust hero-text-area width, order and padding for screens up to 1000px */
+   .hero-text-area {
+    order: 0;
+  }
+
+  .arrow {
+    display:none;
+  }
+
+  /* Adjust hero-image-area width and order for screens up to 1000px */
+  .hero-image-area {
+    order: 1;
+  }
+
   /* Adjust logo image width for screens up to 500px */
   nav #logo-link img {
     width: 30vw;
@@ -1132,7 +1145,7 @@ footer nav h2, footer div h2 {
 
   /* Adjust top navigation logo to remove tagline */
   #logo {
-    content: url("images/logo/shortened-logo-transparent-background.webp");
+    content: url("../images/logo/shortened-logo-transparent-background.webp");
   }
 
   #myBtn {
