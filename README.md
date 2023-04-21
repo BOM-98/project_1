@@ -19,12 +19,12 @@
     - [Media](https://github.com/BOM-98/project_1#media)
 
 
-
+## Introduction
 
 The Startup Academy is a blog for guiding new founders on best practices for achieving product-market fit. The blog is targeted towards startup founders, particularly new founders in Dublin, Ireland. The goal of the website is to distill as much knowledge as possible into articles and present them in a logical order for founders to follow. If a founder is running a company that is already past some of the stages discussed in the blog, they can easily navigate and identify what the next problem area they should explore would be. 
 
 
-![Hero Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png)
+![Header Image](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/responsive-images.png)
 ## Design Choices
 
 ### Colour Scheme
@@ -113,12 +113,12 @@ Here is a general overview of the Sitemap:
 - 2. Resources 
 	- 2.1 [Ideation](https://bom-98.github.io/project_1/ideation.html) 
 	- 2.2 [Customer Discovery](https://bom-98.github.io/project_1/customer_discovery.html)
-	- 2.3 Fundraising - https://bom-98.github.io/project_1/fundraising.html 
-	- 2.4 Blog Home - https://bom-98.github.io/project_1/blog-home.html
-- 3. Newsletter Signup - https://bom-98.github.io/project_1/newsletter_signup.html 
-- 4. Thank You - https://bom-98.github.io/project_1/thank_you.html
+	- 2.3 [Fundraising](https://bom-98.github.io/project_1/fundraising.html) 
+	- 2.4 [Blog Home](https://bom-98.github.io/project_1/blog-home.html)
+- 3. [Newsletter Signup](https://bom-98.github.io/project_1/newsletter_signup.html)
+- 4. [Thank You](https://bom-98.github.io/project_1/thank_you.html)
 
-To rank the website on Google Search, a Google HTML file was added to the root directory (/workspaces/project_1/googleb4228df491edf6c8.html).
+To rank the website on Google Search, a Google HTML file was added to the root directory (/workspaces/project_1/googleb4228df491edf6c8.html). I did not rename this file to something shorter and more readable as I was concerned with Google's ability to identify the file and verify the site if I did. 
 
 A visual skeleton of the website is shown in the below image.
 
@@ -140,7 +140,7 @@ The Startup Academy website features a dedicated homepage where founders can ins
 
 Existing Features
 
--   **Navigation Bar**
+- #### **Navigation Bar
     
     -   Featured on all seven pages, the full responsive navigation bar includes links to the Logo, Home page, Blog Section and Contact page and is identical in each page to allow for easy navigation.
     -   This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
@@ -151,14 +151,14 @@ Existing Features
 
 ![Nav Bar](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/nav-bar-image.png)
 
--   **The landing page image**
+- #### **The landing page image**
     
     -   The landing includes a photograph of the website mascot alongside text with relevant button links to inform the user of the website's purpose and provide easy navigation to further resources.
     -   This section introduces the user to The Startup Academy with a neomorphism style for the hero section to portray a more modern feel for the website and make it feel more relevant for tech founders in particular.
 
 ![Hero Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png)
 
--   **Toggle-Enabled Tab Content Section**
+-   #### **Toggle-Enabled Tab Content Section**
     
     -   The Tab content section will allow the user to see the topics currently covered in the website, and quickly navigate to the area most relevant to them.
     - The user can click on the different headings to see what blogs have been written under the topic and can then navigate directly to the individual pages for each article within those categories. 
@@ -167,7 +167,7 @@ Existing Features
 
 ![Toggle-Enabled Tab Content Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/tab-section-image.png)
 
--   **Mailing List Section**
+-  #### **Mailing List Section**
     
     -   This section allows the user to register for the mailing list.
     -   The user is informed of the benefits of joining the mailing list, and the animated 'sign up' button attracts their attention to the call to action.
@@ -175,13 +175,13 @@ Existing Features
 
 [![Newsletter](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/newsletter-section-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/newsletter-section-image.png)
 
--   **The Footer**
+-  #### **The Footer**
     
     -   The footer section includes links to the relevant pages for the Startup Academy, in addition to other notable websites relevant for startup founders. The external links will open to a new tab to allow easy navigation for the user.
 
 [![Footer](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/footer-section-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/footer-section-image.png)
 
--   **Blog Home Page**
+-  #### **Blog Home Page**
     - Found on the blog-home.html file. 
     - The blog page will provide the user with a list preview to each blog on the site and links to reach the full article.
     -   This section is valuable to the user as they will be able to easily identify the types of content they want to read.
@@ -189,7 +189,7 @@ Existing Features
 
 ![Blog Home Section Top](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/blog-home-top-image.png)
 
--   **Article Pages**
+-  #### **Article Pages**
 
 	- Each article (Ideation, Customer Discovery, Fundraising) has its own dedicated article page
 	- Each article features a banner section with an image and title to inform the user of which article they are on
@@ -199,7 +199,7 @@ Existing Features
 ![ArticleTop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-top-image.png)
 ![ArtileMid](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-middle-section-image.png)
 
--   **The Sign Up Page**
+-  #### **The Sign Up Page**
     
     - Found on the contact.html file. 
     - This page will allow the user to get signed up to The Startup Academy newsletter to start their learning journey. The user will be asked to submit their Email Address, Full Name, Company and Job Title.
@@ -230,9 +230,14 @@ To ensure the site functions appropriately I conducted a number of tests. This i
 	   - Perfect 100% score across Performance, Accessibility, Best Practices & SEO on [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-bom-98-github-io-project_1/fjiqdvj3km?form_factor=desktop).
        ![PageSpeedDesktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/PageSpeed%20Test%20Result.png)
        ![PageSpeedMobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/PageSpeed%20Test%20Result%20Mobile.png) 
-    - Manual Testing
-        -  My mentor and I continually tested the website during our two calls throughout the project
-        - I received manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended
+### []()Manual Testing
+        - For each new page implementation
+            - every page link was checked to make sure they redirected to the correct source
+            - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions
+            - external links were checked to make sure they opened a new tab and directed to the correct source
+            - forms were checked for defensive coding (field validation, error message for wrong input and mandatory fields) and correct submission redirects to the thank you page
+            - compatibility tests were done for different browsers
+        - I received additional manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended
 
 ## [](https://github.com/Code-Institute-Solutions/readme-template#deployment)Deployment
 
@@ -245,7 +250,7 @@ To ensure the site functions appropriately I conducted a number of tests. This i
     -   From the source section drop-down menu, select the Master Branch
     -   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here -  [https://bom-98.github.io/project_1/](https://bom-98.github.io/project_1/). 
+The live link can be found [here](https://bom-98.github.io/project_1/). 
 
 
 
@@ -279,4 +284,4 @@ The live link can be found here -  [https://bom-98.github.io/project_1/](https:/
 -   The logo was generated using [Tailor Brands](https://studio.tailorbrands.com/).
 
 
-I would like to thank my Mentor [CluelessBiker](https://github.com/CluelessBiker) for all of her help in getting this project live. She has contributed massively through her advice in making sure this website was free of bugs and met the requirements of the course. 
+I would like to thank my Mentor [CluelessBiker](https://github.com/CluelessBiker) for all of her help in getting this project live. She has contributed so much through her advice in making sure this website was free of bugs and met the requirements of the course. 
