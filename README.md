@@ -2,17 +2,25 @@
 > # The Startup Academy
 
 ## Table of Contents
-- [Introduction]
+- [Introduction](https://github.com/BOM-98/project_1#introduction)
 - [Design Choices](https://github.com/BOM-98/project_1#design-choices)
     - [Colour Scheme](https://github.com/BOM-98/project_1#colour-scheme)
     - [Wire Frames](https://github.com/BOM-98/project_1#wire-frames)
     - [User Stories](https://github.com/BOM-98/project_1#user-stories)
     - [Sitemap](https://github.com/BOM-98/project_1#sitemap)
 - [Features](https://github.com/BOM-98/project_1#features)
+    - [Navigation Bar](https://github.com/BOM-98/project_1#navigation-bar)
+    - [The Landing Page](https://github.com/BOM-98/project_1#the-landing-page)
+    - [Toggle-Enabled Tab Content Section](https://github.com/BOM-98/project_1#toggle-enabled-tab-content-section)
+    - [Mailing List Section](https://github.com/BOM-98/project_1#mailing-list-section)
+    - [The Footer](https://github.com/BOM-98/project_1#the-footer)
+    - [Blog Home Page](https://github.com/BOM-98/project_1#blog-home-page)
+    - [Article Pages](https://github.com/BOM-98/project_1#article-pages)
+    - [Sign Up Page](https://github.com/BOM-98/project_1#the-sign-up-page)
 - [Features Left to Implement](https://github.com/BOM-98/project_1#features-left-to-implement)
 - [Testing](https://github.com/BOM-98/project_1#testing)
     - [Validator Testing](https://github.com/BOM-98/project_1#validator-testing)
-    - [Manual Testing]()
+    - [Manual Testing](https://github.com/BOM-98/project_1#manual-testing)
 - [Deployment](https://github.com/BOM-98/project_1#deployment)
 - [Credits](https://github.com/BOM-98/project_1#credits)
     - [Content](https://github.com/BOM-98/project_1#content)
@@ -118,7 +126,7 @@ Here is a general overview of the Sitemap:
 - 3. [Newsletter Signup](https://bom-98.github.io/project_1/newsletter_signup.html)
 - 4. [Thank You](https://bom-98.github.io/project_1/thank_you.html)
 
-To rank the website on Google Search, a Google HTML file was added to the root directory (/workspaces/project_1/googleb4228df491edf6c8.html). I did not rename this file to something shorter and more readable as I was concerned with Google's ability to identify the file and verify the site if I did. 
+To rank the website on Google Search, a Google HTML file was added to the root directory (/workspaces/project_1/googleb4228df491edf6c8.html). I did not rename this file to something shorter and more readable as I was concerned about Google's ability to identify the file and verify the site if I did. 
 
 A visual skeleton of the website is shown in the below image.
 
@@ -140,7 +148,7 @@ The Startup Academy website features a dedicated homepage where founders can ins
 
 Existing Features
 
-- #### **Navigation Bar
+- #### Navigation Bar
     
     -   Featured on all seven pages, the full responsive navigation bar includes links to the Logo, Home page, Blog Section and Contact page and is identical in each page to allow for easy navigation.
     -   This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
@@ -151,7 +159,7 @@ Existing Features
 
 ![Nav Bar](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/nav-bar-image.png)
 
-- #### **The landing page image**
+- #### **The landing page**
     
     -   The landing includes a photograph of the website mascot alongside text with relevant button links to inform the user of the website's purpose and provide easy navigation to further resources.
     -   This section introduces the user to The Startup Academy with a neomorphism style for the hero section to portray a more modern feel for the website and make it feel more relevant for tech founders in particular.
@@ -208,17 +216,17 @@ Existing Features
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
-### [](https://github.com/Code-Institute-Solutions/readme-template#features-left-to-implement)Features Left to Implement
+### Features Left to Implement
 
 -   I would have liked to connect the newsletter forms to an actual mailing list to enable users to receive new content on a regular basis. This would involve creating a backend database and APIs to collect and store the user information, in addition to integrating with a mailing software suce as MailChimp in order to email new subscribers. 
 -  I would like to make a full blog editor where I can quickly add new blog pages with the same layout and style without having to manually create a new page by writing HTML and CSS. This would involve creating an admin page where I could write new articles and publish them to the site. Information on how to do this is provided in the following [link](https://dev.to/themodernweb/fullstack-how-to-create-a-working-blogging-website-with-pure-html-css-and-js-in-2021-9di.).
 
 
-## [](https://github.com/Code-Institute-Solutions/readme-template#testing)Testing
+## Testing
 
 To ensure the site functions appropriately I conducted a number of tests. This includes HTML, CSS and Javascript testing. 
 
-### [](https://github.com/Code-Institute-Solutions/readme-template#validator-testing)Validator Testing
+### Validator Testing
 
 -   HTML
     -   No errors were returned when passing through the official  [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html).
@@ -231,15 +239,15 @@ To ensure the site functions appropriately I conducted a number of tests. This i
        ![PageSpeedDesktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/PageSpeed%20Test%20Result.png)
        ![PageSpeedMobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/PageSpeed%20Test%20Result%20Mobile.png) 
 ### []()Manual Testing
-        - For each new page implementation
-            - every page link was checked to make sure they redirected to the correct source
-            - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions
-            - external links were checked to make sure they opened a new tab and directed to the correct source
-            - forms were checked for defensive coding (field validation, error message for wrong input and mandatory fields) and correct submission redirects to the thank you page
-            - compatibility tests were done for different browsers
-        - I received additional manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended
+    - For each new page implementation
+        - every page link was checked to make sure they redirected to the correct source
+        - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions
+        - external links were checked to make sure they opened a new tab and directed to the correct source
+        - forms were checked for defensive coding (field validation, error message for wrong input and mandatory fields) and correct submission redirects to the thank you page
+        - compatibility tests were done for different browsers
+    - I received additional manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended
 
-## [](https://github.com/Code-Institute-Solutions/readme-template#deployment)Deployment
+## Deployment
 
 -   The site was deployed to GitHub pages. The steps to deploy are as follows:
     -   Before deployment I edited my working directory using Visual Studio Code Remote Explorer. 
@@ -255,11 +263,11 @@ The live link can be found [here](https://bom-98.github.io/project_1/).
 
 
 
-## [](https://github.com/Code-Institute-Solutions/readme-template#credits)Credits
+## Credits
 
 
 
-### [](https://github.com/Code-Institute-Solutions/readme-template#content)Content
+### Content
 
 
 - Inspiration on the hero section and the layout of the blog pages was taken from [Interneting is Hard](https://internetingishard.netlify.app/index.html).  A lot of the design was customized and not copied, in particular the hero section, however the wireframe was initially inspired from the Interneting is Hard website design.
@@ -278,7 +286,7 @@ The live link can be found [here](https://bom-98.github.io/project_1/).
 - Wireframes were created using [Balsamiq](https://balsamiq.com/). 
 
 
-### [](https://github.com/Code-Institute-Solutions/readme-template#media)Media
+### Media
 
  -   The images used throughout the website were sourced from Freepik, specifically the author [catalyststuff](https://www.freepik.com/author/catalyststuff).
 -   The logo was generated using [Tailor Brands](https://studio.tailorbrands.com/).
