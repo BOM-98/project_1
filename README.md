@@ -41,7 +41,7 @@ I chose this colour scheme keeping in mind the need for contrast between colours
 
 As a point of note, some contrast checkers threw errors on the use of the Red Violet colour on the background of Eerie black. This was done very sparringly in the hero section, footer section and animated sections of forms to highlight one or two words or to underline active links. I made the choice, aesthetically speaking, to leave the colours as they were, as I believe they did not hider readability or accessiblity significantly enough to warrant changing them. The aesthetic outcome was prioritised in this case, as I believe there was still a significant enough contract for people to easily identify the words. The other elements surrounding the words had a strong contrast with the background and made it obvious that there was a word there.  
 
-![ColourPalette](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/colour-pallette-image.png)
+![Colour Palette](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/colour-pallette-image.png)
 
 ### Wire Frames
 I created my wireframe using Balsamiq.
@@ -136,19 +136,17 @@ A visual skeleton of the website is shown in the below image.
 
 The sitemap was uploaded to Google Search Console to improve page ranking on Google search.
 
-![sitemapUpload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/sitemap-submission-approval.png).
+![Sitemap Upload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/sitemap-submission-approval.png).
 
 A sitemap HTML tag was also added to the root repository to enable Google to validate the site ownership. 
 
-![sitemapHTMLUpload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/sitemap-html-file.png)
+![Sitemap HTML Upload](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/sitemap-html-file.png)
 
 ## Features
 
 The Startup Academy website features a dedicated homepage where founders can instantly navigate to all the relevant resources contained on the site. This includes a responsive navigation bar, a tab section where users can toggle between blog content to arrive at the area most relevant to them, a form to sign up to the newsletter, a thank you page for anyone who has submitted a form and three blog pages with content on Ideation, Customer Discovery and Fundraising.  
 
 ### ![Responsive Display](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/responsive-images.png)
-
-Existing Features
 
 - #### Navigation Bar
     
@@ -176,6 +174,8 @@ Existing Features
     - This section will continuously have more content added to it as the blog develops. 
 
 ![Toggle-Enabled Tab Content Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/tab-section-image.png)
+![Toggle-Enabled Customer Discovery Section]()
+![Toggle-Enabled Fundraising Section]()
 
 -  #### **Mailing List Section**
     
@@ -206,8 +206,8 @@ Existing Features
 	- There is a sticky side navigation with links to the relevant headings in the article to assist the user in arriving at the right sections of the article that they are interested in. The sticky navigation disappears at the end of the article to prevent it interfering with other sections.
 	- Each article ends with a call to action signup form to further encourage users to join the newsletter.
 
-![ArticleTop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-top-image.png)
-![ArtileMid](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-middle-section-image.png)
+![Article Top](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-top-image.png)
+![Artile Mid](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-middle-section-image.png)
 
 -  #### **The Sign Up Page**
     
@@ -235,11 +235,13 @@ To ensure the site functions appropriately I conducted a number of tests. This i
     ![W3Cvalidator](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/html-validator-check.png)
 -   CSS
     -   No errors were found when passing through the official  [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbom-98.github.io%2Fproject_1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en).
-    ![JigsawValidator](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/css-validator-check.png)
+    ![Jigsaw Validator](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/css-validator-check.png)
    - Page Performance
 	   - Perfect 100% score across Performance, Accessibility, Best Practices & SEO on [PageSpeed Insights](https://pagespeed.web.dev/analysis/https-bom-98-github-io-project_1/fjiqdvj3km?form_factor=desktop).
-       ![PageSpeedDesktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result.png)
-       ![PageSpeedMobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result-mobile.png) 
+       Desktop
+       ![PageSpeed Desktop](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result.png)
+       Mobile
+       ![PageSpeed Mobile](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/pagespeed-test-result-mobile.png) 
 ### Manual Testing
     - For each new page implementation
         - every page link was checked to make sure they redirected to the correct source
