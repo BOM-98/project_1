@@ -37,9 +37,9 @@ The Startup Academy is a blog for guiding new founders on best practices for ach
 
 ### Colour Scheme
 
-I chose this colour scheme keeping in mind the need for contrast between colours on the website for accessibility. The strong Red Violet primary colour is intended to be striking and attention grabbing relative to the Eerie black background and convey the symbol of risk and danger for a journey that many of these entrepreneurs will embark on, but gladly embrace.
+I chose this colour scheme keeping in mind the need for a contrast between colours on the website for accessibility. The strong Red Violet primary colour is intended to be striking and attention-grabbing relative to the Eerie black background and convey the symbol of risk and danger for a journey that many of these entrepreneurs will embark on, but gladly embrace.
 
-As a point of note, some contrast checkers threw errors on the use of the Red Violet colour on the background of Eerie black. This was done very sparringly in the hero section, footer section and animated sections of forms to highlight one or two words or to underline active links. I made the choice, aesthetically speaking, to leave the colours as they were, as I believe they did not hider readability or accessiblity significantly enough to warrant changing them. The aesthetic outcome was prioritised in this case, as I believe there was still a significant enough contract for people to easily identify the words. The other elements surrounding the words had a strong contrast with the background and made it obvious that there was a word there.  
+As a point of note, some contrast checkers threw errors on the use of the Red Violet colour on the background of Eerie black. This was done very sparingly in the hero section, footer section, and animated sections of forms to highlight one or two words or underline active links. I made the choice, aesthetically speaking, to leave the colours as they were, as I believe they did not hinder readability or accessibility significantly enough to warrant changing them. The aesthetic outcome was prioritized in this case, as I believe there was still a significant enough contract for people to easily identify the words. The other elements surrounding the words had a strong contrast with the background and made it obvious that there was a word there.  
 
 ![Colour Palette](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/colour-pallette-image.png)
 
@@ -48,19 +48,19 @@ I created my wireframe using Balsamiq.
 
 #### Home Page
 
-The home page and Hero section was designed to provide a brief description of the Startup Academy with a call to action to sign up to the newsletter. In the implementation a secondary CTA button was added linking to the articles.
+The home page and Hero section were designed to provide a brief description of the Startup Academy with a call to action to sign up for the newsletter. In the implementation, a secondary CTA button was added linking to the articles.
 
 ![Wireframe1](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/home-page.png)
 
 #### Blog Page
 
-The blog page outlined the basic structure that would be used by the 'Ideation', 'Customer Discovery' and 'Fundraising' articles. It featured a header image with the page content section directly below and a sticky side panel for navigating to different article headings. The side panel will disappear once the user scrolls to the contact section. The blog page is finished off with a contact section.  
+The blog page outlined the basic structure that would be used by the 'Ideation', 'Customer Discovery', and 'Fundraising' articles. It featured a header image with the page content section directly below and a sticky side panel for navigating to different article headings. The side panel will disappear once the user scrolls to the contact section. The blog page is finished off with a contact section.  
 
 ![Wireframe2](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/blog-pages.png)
 
 #### Contact Page
 
-The contact page is purely intended to get users to get users to register for the website. An about page was going to be implemented underneath, highlighted in green, however this was not implemented as there isn't a set location for the website. 
+The contact page is purely intended to get users to register for the website. An about page was going to be implemented underneath, highlighted in green, however, this was not implemented as there isn't a set location for the website. 
 
 ![Wireframe3](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/contact-page.png)
 
@@ -79,11 +79,11 @@ The thank you page is arrived at as soon as a user submits a form on the website
 	- Entrepreneur John, 30, is looking for advice on how to develop and validate a new business idea.
 	- He conducts an internet search for websites that provide startup founders with resources.
 	- John visits the Ideation blog page after finding the Startup Academy website.
-	- He discovers helpful tools and articles that assist him refine his business ideas into a more workable plan.
+	- He discovers helpful tools and articles that assist him to refine his business ideas into a more workable plan.
 
 #### User Story 2: 
 
-- In order to build a solution that truly satisfies the demands of my customers, I need resources on knowing my target market and validating my idea. I am a startup founder working on customer discovery.
+- To build a solution that truly satisfies the demands of my customers, I need resources on knowing my target market and validating my idea. I am a startup founder working on customer discovery.
 
 - Scenario:
 	- A 35-year-old company founder named Jane is focusing on finding customers for her fresh app concept.
@@ -104,14 +104,14 @@ Jane finds the Startup Academy website and goes to the blog page on customer dis
 
 #### User Story 4: 
 
-- In order to continue learning and incorporating fresh perspectives into my firm, I want to stay up to date on the most recent advice and tools for creating a successful startup.
+- To continue learning and incorporating fresh perspectives into my firm, I want to stay up to date on the most recent advice and tools for creating a successful startup.
 
 - Scenario:
 
 	- Lisa, a 32-year-old startup founder, is constantly looking for fresh perspectives and tools to advance her company.
 	- She finds the Startup Academy website and sees the subscription form.
 	- To obtain regular information on new blog entries and resources, Lisa subscribes to the newsletter.
-	- She gets routed to a thank you page after submitting the form, which confirms her subscription. She then starts getting helpful content from the Startup Academy in her mailbox on a regular basis.
+	- She gets routed to a thank you page after submitting the form, which confirms her subscription. She then starts getting helpful content from the Startup Academy in her mailbox regularly.
 
 ### Sitemap
 
@@ -144,14 +144,14 @@ A sitemap HTML tag was also added to the root repository to enable Google to val
 
 ## Features
 
-The Startup Academy website features a dedicated homepage where founders can instantly navigate to all the relevant resources contained on the site. This includes a responsive navigation bar, a tab section where users can toggle between blog content to arrive at the area most relevant to them, a form to sign up to the newsletter, a thank you page for anyone who has submitted a form and three blog pages with content on Ideation, Customer Discovery and Fundraising.  
+The Startup Academy website features a dedicated homepage where founders can instantly navigate to all the relevant resources contained on the site. This includes a responsive navigation bar, a tab section where users can toggle between blog content to arrive at the area most relevant to them, a form to sign up for the newsletter, a thank you page for anyone who has submitted a form, and three blog pages with content on Ideation, Customer Discovery, and Fundraising.  
 
 ### ![Responsive Display](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/responsive-images.png)
 
 - #### Navigation Bar
     
-    -   Featured on all seven pages, the full responsive navigation bar includes links to the Logo, Home page, Blog Section and Contact page and is identical in each page to allow for easy navigation.
-    -   This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+    -   Featured on all seven pages, the full responsive navigation bar includes links to the Logo, Home page, Blog Section, and Contact page and is identical on each page to allow for easy navigation.
+    -   This section will allow the user to easily navigate from page to page across all devices without having to revert to the previous page via the ‘back’ button.
     - The navigation bar displays an active link to inform the user where they are currently on the website to assist navigation.
     - The navigation bar collapses into a burger menu on smaller devices to avoid excessive space being consumed by the navigation area.
 
@@ -162,13 +162,13 @@ The Startup Academy website features a dedicated homepage where founders can ins
 - #### **The landing page**
     
     -   The landing includes a photograph of the website mascot alongside text with relevant button links to inform the user of the website's purpose and provide easy navigation to further resources.
-    -   This section introduces the user to The Startup Academy with a neomorphism style for the hero section to portray a more modern feel for the website and make it feel more relevant for tech founders in particular.
+    -   This section introduces the user to The Startup Academy with a neomorphic style for the hero section to portray a more modern feel for the website and make it feel more relevant for tech founders in particular.
 
 ![Hero Section](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/hero-section-image.png)
 
 -   #### **Toggle-Enabled Tab Content Section**
     
-    -   The Tab content section will allow the user to see the topics currently covered in the website, and quickly navigate to the area most relevant to them.
+    -   The Tab content section will allow the user to see the topics currently covered on the website, and quickly navigate to the area most relevant to them.
     - The user can click on the different headings to see what blogs have been written under the topic and can then navigate directly to the individual pages for each article within those categories. 
     -   This user will see the wealth of knowledge available on the site, and this should encourage the user to consider registering for the newsletter to receive the content in an orderly fashion.
     - This section will continuously have more content added to it as the blog develops. 
@@ -187,13 +187,13 @@ The Startup Academy website features a dedicated homepage where founders can ins
 
 -  #### **The Footer**
     
-    -   The footer section includes links to the relevant pages for the Startup Academy, in addition to other notable websites relevant for startup founders. The external links will open to a new tab to allow easy navigation for the user.
+    -   The footer section includes links to the relevant pages for the Startup Academy, in addition to other notable websites relevant to startup founders. The external links will open to a new tab to allow easy navigation for the user.
 
 [![Footer](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/footer-section-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/footer-section-image.png)
 
 -  #### **Blog Home Page**
     - Found on the blog-home.html file. 
-    - The blog page will provide the user with a list preview to each blog on the site and links to reach the full article.
+    - The blog page will provide the user with a list preview of each blog on the site and links to reach the full article.
     -   This section is valuable to the user as they will be able to easily identify the types of content they want to read.
     - Each article is displayed with a corresponding image that alternates on the left or right depending on the order of the article in the list.
 
@@ -201,18 +201,18 @@ The Startup Academy website features a dedicated homepage where founders can ins
 
 -  #### **Article Pages**
 
-	- Each article (Ideation, Customer Discovery, Fundraising) has its own dedicated article page
-	- Each article features a banner section with an image and title to inform the user of which article they are on
-	- There is a sticky side navigation with links to the relevant headings in the article to assist the user in arriving at the right sections of the article that they are interested in. The sticky navigation disappears at the end of the article to prevent it interfering with other sections.
-	- Each article ends with a call to action signup form to further encourage users to join the newsletter.
+	- Each article (Ideation, Customer Discovery, Fundraising) has its own dedicated article page.
+	- Each article features a banner section with an image and title to inform the user of which article they are on.
+	- There is a sticky side navigation with links to the relevant headings in the article to assist the user in arriving at the right sections of the article that they are interested in. The sticky navigation disappears at the end of the article to prevent it from interfering with other sections.
+	- Each article ends with a call to action sign-up form to further encourage users to join the newsletter.
 
 ![Article Top](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-top-image.png)
 ![Artile Mid](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/customer-discovery-middle-section-image.png)
 
--  #### **The Sign Up Page**
+-  #### **The Sign-up Page**
     
     - Found on the contact.html file. 
-    - This page will allow the user to get signed up to The Startup Academy newsletter to start their learning journey. The user will be asked to submit their Email Address, Full Name, Company and Job Title.
+    - This page will allow the user to get signed up for The Startup Academy newsletter to start their learning journey. The user will be asked to submit their Email Address, Full Name, Company, and Job Title.
 
 [![Sign Up](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/newsletter-section-image.png)](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/newsletter-section-image.png)
 
@@ -220,13 +220,13 @@ For some/all of your features, you may choose to reference the specific project 
 
 ### Features Left to Implement
 
--   I would have liked to connect the newsletter forms to an actual mailing list to enable users to receive new content on a regular basis. This would involve creating a backend database and APIs to collect and store the user information, in addition to integrating with a mailing software suce as MailChimp in order to email new subscribers. 
+-   I would have liked to connect the newsletter forms to an actual mailing list to enable users to receive new content regularly. This would involve creating a backend database and APIs to collect and store the user information, in addition to integrating with mailing software such as MailChimp to email new subscribers. 
 -  I would like to make a full blog editor where I can quickly add new blog pages with the same layout and style without having to manually create a new page by writing HTML and CSS. This would involve creating an admin page where I could write new articles and publish them to the site. Information on how to do this is provided in the following [link](https://dev.to/themodernweb/fullstack-how-to-create-a-working-blogging-website-with-pure-html-css-and-js-in-2021-9di.).
 
 
 ## Testing
 
-To ensure the site functions appropriately I conducted a number of tests. This includes HTML, CSS and Javascript testing. 
+To ensure the site functions appropriately I conducted several tests. This includes HTML, CSS, and Javascript testing. 
 
 ### Validator Testing
 
@@ -246,23 +246,23 @@ To ensure the site functions appropriately I conducted a number of tests. This i
 ### Manual Testing
 
     - For each new page implementation
-        - every page link was checked to make sure they redirected to the correct source
-        - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions
-        - external links were checked to make sure they opened a new tab and directed to the correct source
-        - forms were checked for defensive coding (field validation, error message for wrong input and mandatory fields) and correct submission redirects to the thank you page
-        - compatibility tests were done for different browsers
-    - I received additional manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended
+        - every page link was checked to make sure they redirected to the correct source.
+        - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions.
+        - external links were checked to make sure they opened a new tab and directed to the correct source.
+        - forms were checked for defensive coding (field validation, error message for wrong input and mandatory fields) and correct submission redirects to the thank you page.
+        - compatibility tests were done for different browsers.
+    - I received additional manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended.
 
 ## Deployment
 
 -   The site was deployed to GitHub pages. The steps to deploy are as follows:
-    -   Before deployment I edited my working directory using Visual Studio Code Remote Explorer. 
-    - I added my files to the staging area using the 'git add .' command in the terminal
+    -   Before deployment, I edited my working directory using Visual Studio Code Remote Explorer. 
+    - I added my files to the staging area using the 'git add .' command in the terminal.
     - Once files were added to the staging area, I committed my files using 'git commit -m 'my message'.
     - Once my changes had been committed, I pushed the changes to the remote repository using 'git push' in the terminal. 
-    - In the GitHub repository, navigate to the Settings tab
-    -   From the source section drop-down menu, select the Master Branch
-    -   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+    - In the GitHub repository, navigate to the Settings tab.
+    -   From the source section drop-down menu, select the Master Branch.
+    -   Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful .deployment.
 
 The live link can be found [here](https://bom-98.github.io/project_1/). 
 
@@ -270,17 +270,17 @@ The live link can be found [here](https://bom-98.github.io/project_1/).
 
 ### Content
 
-- Inspiration on the hero section and the layout of the blog pages was taken from [Interneting is Hard](https://internetingishard.netlify.app/index.html).  A lot of the design was customized and not copied, in particular the hero section, however the wireframe was initially inspired from the Interneting is Hard website design.
-- General instructions on how to create a toggleable tab navigation section was taken from [W3 Schools](https://www.w3schools.com/howto/howto_js_tabs.asp). The general logic behind the code was learned from this site, but the implemented version was highly customized and altered to suit the site. 
+- Inspiration for the hero section and the layout of the blog pages was taken from [Interneting is Hard](https://internetingishard.netlify.app/index.html).  A lot of the design was customized and not copied, in particular the hero section, however, the wireframe was initially inspired by the Interneting is Hard website design.
+- General instructions on how to create a toggleable tab navigation section were taken from [W3 Schools](https://www.w3schools.com/howto/howto_js_tabs.asp). The general logic behind the code was learned from this site, but the implemented version was highly customized and altered to suit the site. 
 -  How to structure and style the logic form was taken from [Coding Stella's Codepen](https://codepen.io/codingstella/pen/LYJKQxB). Small adjustments to the form inputs and colour were added to the style. 
-- How to create a sticky aside was learned from [W3 Schools](https://www.w3schools.com/howto/howto_js_sticky_header.asp). I reverse engineered how the sticky navigation operated from that website and copied some of the element IDs - however the section was styled very differently and javascript logic was added with event listeners to ensure the side navigation disappeared once the user scrolled down far enough on the site. 
-- The actual writing in the blogs were generated by [chat-gpt](https://chat.openai.com/) to produce some content that could be used in the pages.
-- How to generally style the cards used in the blog home page was learned from [W3 Schools](https://www.w3schools.com/howto/howto_css_cards.asp). The general layout for the cards was drawn from here, however I had to use flexbox to reorganise the elements within the cards and completely change the design.
-- The scroll to top indicator code was found in [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp). I took this code and javascript and adjusted the styling to fit the branding of the website. The javascript was also adjusted to move all scripts to app.js instead of having inline javascript.  
+- How to create a sticky aside was learned from [W3 Schools](https://www.w3schools.com/howto/howto_js_sticky_header.asp). I reverse-engineered how the sticky navigation operated from that website and copied some of the element IDs - however, the section was styled very differently and javascript logic was added with event listeners to ensure the side navigation disappeared once the user scrolled down far enough on the site. 
+- The actual writing in the blogs was generated by [chat-gpt](https://chat.openai.com/) to produce some content that could be used in the pages.
+- How to generally style the cards used in the blog home page was learned from [W3 Schools](https://www.w3schools.com/howto/howto_css_cards.asp). The general layout for the cards was drawn from here, however, I had to use Flexbox to reorganize the elements within the cards and completely change the design.
+- The scroll-to-top indicator code was found in [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp). I took this code and javascript and adjusted the styling to fit the branding of the website. The javascript was also adjusted to move all scripts to app.js instead of having inline javascript.  
 - The responsive website mockups were generated using [Am I Responsive](https://ui.dev/amiresponsive?url=https://bom-98.github.io/project_1/index.html).
 - Adobe Illustrator was used to edit the .EPS documents created by [catalyststuff](https://www.freepik.com/author/catalyststuff).
 - Visual Studio Code was the IDE used to create the website.
-- I used [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), an extension within Visual Studio Code to visualise and test my website as I was creating it. 
+- I used [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer), an extension within Visual Studio Code to visualize and test my website as I was creating it. 
 - Colour scheme was displayed (not generated) using [Coolors](https://coolors.co/).
 - Favicon created using [favicon.io](https://favicon.io/favicon-converter/).
 - Wireframes were created using [Balsamiq](https://balsamiq.com/). 
@@ -290,4 +290,6 @@ The live link can be found [here](https://bom-98.github.io/project_1/).
  -   The images used throughout the website were sourced from Freepik, specifically the author [catalyststuff](https://www.freepik.com/author/catalyststuff).
 -   The logo was generated using [Tailor Brands](https://studio.tailorbrands.com/).
 
-I would like to thank my Mentor [CluelessBiker](https://github.com/CluelessBiker) for all of her help in getting this project live. She has contributed so much through her advice in making sure this website was free of bugs and met the requirements of the course. 
+## Acknowledgements
+ 
+ I would like to thank my Mentor [CluelessBiker](https://github.com/CluelessBiker) for all of her help in getting this project live. She has contributed so much through her advice in making sure this website was free of bugs and met the requirements of the course. 
