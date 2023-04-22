@@ -1078,7 +1078,7 @@ footer nav h2, footer div h2 {
 
   /* Adjust logo image width for screens up to 500px */
   nav #logo-link img {
-    width: 30vw;
+    width: 50vw;
   }
 
   /* Adjust hero section margin for screens up to 500px */
@@ -1146,6 +1146,16 @@ footer nav h2, footer div h2 {
   /* Adjust top navigation logo to remove tagline */
   #logo {
     content: url("../images/logo/shortened-logo-transparent-background.webp");
+    min-width: 10rem;
+  }
+
+  #logo-link{
+    width: 50vw;
+    min-width: 0px;
+  }
+
+  nav{
+    
   }
 
   #myBtn {
@@ -1160,15 +1170,4 @@ footer nav h2, footer div h2 {
 
   
 
-}
-
-/* Extra small screens */
-@media all and (max-width: 350px) {
-  .topnav {
-    flex-direction: column;
-  }
-
-  .icon {
-    margin-bottom: 1rem;
-  }
 }
