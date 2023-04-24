@@ -22,9 +22,11 @@
     - [Validator Testing](https://github.com/BOM-98/project_1#validator-testing)
     - [Manual Testing](https://github.com/BOM-98/project_1#manual-testing)
 - [Deployment](https://github.com/BOM-98/project_1#deployment)
+- [Bugs/Issues](https://github.com/BOM-98/project_1/blob/main/README.md#bugs--issues)
 - [Credits](https://github.com/BOM-98/project_1#credits)
     - [Content](https://github.com/BOM-98/project_1#content)
     - [Media](https://github.com/BOM-98/project_1#media)
+- [Acknowledgements](https://github.com/BOM-98/project_1/blob/main/README.md#acknowledgements)
 
 
 ## Introduction
@@ -255,14 +257,14 @@ To ensure the site functions appropriately I conducted several tests. This inclu
        
 ### Manual Testing
 
-    - For each new page implementation
-        - every page link was checked to make sure they redirected to the correct source.
-        - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions.
-        - external links were checked to make sure they opened a new tab and directed to the correct source.
-        - forms were checked for defensive coding (field validation, error message for wrong input and mandatory fields) and correct submission redirects to the thank you page.
-        - Google dev tools were checked to make sure there was no errors logged to the console for any Javascript functions that were invoked.
-        - compatibility tests were done for different browsers.
-    - I received additional manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended.
+- For each new page implementation
+    - every page link was checked to make sure they redirected to the correct source.
+    - every element was checked to make sure they were sized correctly and resized as expected with different screen dimensions.
+    - external links were checked to make sure they opened a new tab and directed to the correct source.
+    - forms were checked for defensive coding (field validation, error message for wrong input and mandatory fields) and correct submission redirects to the thank you page.
+    - Google dev tools were checked to make sure there was no errors logged to the console for any Javascript functions that were invoked.
+    - compatibility tests were done for different browsers.
+- I received additional manual testing help on the #peer-code-review channel to make sure all links and javascript functions worked as intended.
 
 ## Deployment
 
@@ -282,15 +284,13 @@ The live link can be found [here](https://bom-98.github.io/project_1/).
 
 There was one notable issue that emerged during development. 
 
-While attempting to implement form validation on the forms in each html page, I noticed that once I changed the "type" of an input from text to email, the label for the element would overlay on top of the input if it was not a valid input. This is not the best outcome in terms of user experience, as ideally the user would be able to view their input clearly to help them easily identify errors. To address this issue, I added a CSS property to the label for the input resulting in the label always clearing the input at all times.
+While attempting to implement form validation on the forms in each html page, I noticed that once I changed the "type" of an input from text to email, the label for the element would overlay on top of the input if it was not a valid input. This is not the best outcome in terms of user experience, as ideally the user would be able to view their input clearly to help them easily identify errors. To address this issue, I added a CSS property to the label for the input resulting in the label always clearing the input at all times, ultimately resolving the issue.
 
-
+![Form Validation Bug](https://github.com/BOM-98/project_1/blob/main/assets/images/README_images/email-validation-bug.png).
 
 ## Credits
 
-### Content
-
-#### Layouts
+### Layouts
 
 - Inspiration for the hero section and the layout of the blog pages was taken from [Interneting is Hard](https://internetingishard.netlify.app/index.html).  A lot of the design was customized and not copied, in particular the hero section, however, the wireframe was initially inspired by the Interneting is Hard website design.
 - General instructions on how to create a toggleable tab navigation section were taken from [W3 Schools](https://www.w3schools.com/howto/howto_js_tabs.asp). The general logic behind the code was learned from this site, but the implemented version was highly customized and altered to suit the site. 
@@ -299,11 +299,11 @@ While attempting to implement form validation on the forms in each html page, I 
 - How to generally style the cards used in the blog home page was learned from [W3 Schools](https://www.w3schools.com/howto/howto_css_cards.asp). The general layout for the cards was drawn from here, however, I had to use Flexbox to reorganize the elements within the cards and completely change the design.
 - The scroll-to-top indicator code was found in [W3schools](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp). I took this code and javascript and adjusted the styling to fit the branding of the website. The javascript was also adjusted to move all scripts to app.js instead of having inline javascript. 
 
-#### Blog Content
+### Blog Content
 
 - The actual writing in the blogs was generated by [chat-gpt](https://chat.openai.com/) to produce some content that could be used in the pages.
 
-#### Images
+### Images
 
 - The responsive website mockups were generated using [Am I Responsive](https://ui.dev/amiresponsive?url=https://bom-98.github.io/project_1/index.html).
 - The logo was generated using [Tailor Brands](https://studio.tailorbrands.com/).
@@ -316,11 +316,11 @@ While attempting to implement form validation on the forms in each html page, I 
     - [Fundraising Image](https://www.freepik.com/free-vector/cute-astronaut-with-money-bag-safe-deposit-box-cartoon-vector-icon-illustration-science-finance_31526058.htm#query=cartoon%20astronaut%20money&position=4&from_view=search&track=ais).
     - [Thank you image](https://www.freepik.com/free-vector/cute-astronaut-holding-heart-love-cartoon-icon-illustration-science-technology-icon-concept-isolated-flat-cartoon-style_10717944.htm#query=cartoon%20astronaut%20thank%20you&position=7&from_view=search&track=ais).
 
-#### Favicon
+### Favicon
 
 - Favicon created using [favicon.io](https://favicon.io/favicon-converter/).
 
-#### Wireframes
+### Wireframes
 
 - Wireframes were created using [Balsamiq](https://balsamiq.com/). 
 
